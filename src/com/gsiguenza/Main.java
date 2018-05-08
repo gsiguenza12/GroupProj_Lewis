@@ -60,20 +60,7 @@ public class Main
 
         /** Program Output **/
         System.out.println("Welcome to the Crypto Currency Database!");
-        System.out.println("\nHere is our selection of the top coins available");
-        System.out.println("for analysis from 02/01/2018 - 04/30/2018:");
-        System.out.println(BORDER);
-        System.out.printf("| 1.  %-15s %5s   |\n", coins.get("btc"), symbol.get("btc") ); //Can replace with .getName() method for each coin
-        System.out.printf("| 2.  %-15s %5s   |\n", coins.get("eth"), symbol.get("eth") ); //Can replace with .getName() method for each coin
-        System.out.printf("| 3.  %-15s %5s   |\n", coins.get("xrp"), symbol.get("xrp") ); //Can replace with .getName() method for each coin
-        System.out.printf("| 4.  %-15s %5s   |\n", coins.get("bch"), symbol.get("bch") ); //Can replace with .getName() method for each coin
-        System.out.printf("| 5.  %-15s %5s   |\n", coins.get("eos"), symbol.get("eos") ); //Can replace with .getName() method for each coin
-        System.out.printf("| 6.  %-15s %5s   |\n", coins.get("ada"), symbol.get("ada") ); //Can replace with .getName() method for each coin
-        System.out.printf("| 7.  %-15s %5s   |\n", coins.get("ltc"), symbol.get("ltc") ); //Can replace with .getName() method for each coin
-        System.out.printf("| 8.  %-15s %5s   |\n", coins.get("xlm"), symbol.get("xlm") ); //Can replace with .getName() method for each coin
-        System.out.printf("| 9.  %-15s %5s   |\n", coins.get("neo"), symbol.get("neo") ); //Can replace with .getName() method for each coin
-        System.out.printf("| 10. %-14s  %5s   |\n", coins.get("trx"), symbol.get("trx") ); //Can replace with .getName() method for each coin
-        System.out.println(BORDER);
+        printCoins(coins,symbol);
 
         /** User Input + Processing**/
         while(run)
@@ -491,5 +478,27 @@ public class Main
 	}
 	//Returns string for hashmap in format xx/xx
 	return dateString;
+    }
+
+    /**
+     *
+     * @param coins
+     * @param symbol
+     */
+    public static void printCoins(HashMap<String, String> coins, HashMap<String, String> symbol) {
+        System.out.println("\nHere is our selection of the top coins available");
+        System.out.println("for analysis from 02/01/2018 - 04/30/2018:");
+        System.out.println(BORDER);
+        System.out.printf("| 1.  %-15s %5s   |\n", coins.get("btc"), symbol.get("btc") ); //Can replace with .getName() method for each coin
+        System.out.printf("| 2.  %-15s %5s   |\n", coins.get("eth"), symbol.get("eth") ); //Can replace with .getName() method for each coin
+        System.out.printf("| 3.  %-15s %5s   |\n", coins.get("xrp"), symbol.get("xrp") ); //Can replace with .getName() method for each coin
+        System.out.printf("| 4.  %-15s %5s   |\n", coins.get("bch"), symbol.get("bch") ); //Can replace with .getName() method for each coin
+        System.out.printf("| 5.  %-15s %5s   |\n", coins.get("eos"), symbol.get("eos") ); //Can replace with .getName() method for each coin
+        System.out.printf("| 6.  %-15s %5s   |\n", coins.get("ada"), symbol.get("ada") ); //Can replace with .getName() method for each coin
+        System.out.printf("| 7.  %-15s %5s   |\n", coins.get("ltc"), symbol.get("ltc") ); //Can replace with .getName() method for each coin
+        System.out.printf("| 8.  %-15s %5s   |\n", coins.get("xlm"), symbol.get("xlm") ); //Can replace with .getName() method for each coin
+        System.out.printf("| 9.  %-15s %5s   |\n", coins.get("neo"), symbol.get("neo") ); //Can replace with .getName() method for each coin
+        System.out.printf("| 10. %-14s  %5s   |\n", coins.get("trx"), symbol.get("trx") ); //Can replace with .getName() method for each coin
+        System.out.println(BORDER);
     }
 }
