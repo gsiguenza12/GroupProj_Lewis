@@ -290,164 +290,164 @@ public class Main
         //User menu for date selection, outputs int value to use for hashmap
     public static String dateConvert()
     {
-		Scanner keyboard = new Scanner(System.in);
-		String temp = null;
-		int choice = 0;
-		boolean run = true;
-		int day = 0;
-		int date = 0;
-		String dateString = null;
-		StringBuilder sb = new StringBuilder();
+	Scanner keyboard = new Scanner(System.in);
+	String temp = null;
+	int choice = 0;
+	boolean run = true;
+	int day = 0;
+	int date = 0;
+	String dateString = null;
+	StringBuilder sb = new StringBuilder();
 		
-		//User selects month from menu
+	//User selects month from menu
+	while(run)
+	{
+		System.out.println("\nPlease select from the following options:\n");
+        	System.out.println("To use a date from February.. Enter '1'");
+       		System.out.println("To use a date from March..... Enter '2'");
+            	System.out.println("To use a date from April..... Enter '3'");
+            
+            	temp = keyboard.nextLine();
+            	try
+            	{
+			choice = Integer.parseInt(temp);
+		}
+		catch(Exception e)
+		{
+			System.out.println("\nInvalid choice! Try again!\n");
+		}
+            
+            	if(choice == 1)
+            	{
+			sb.append("02/");
+			run = false;
+            	}
+
+            	else if(choice == 2)
+            	{
+                	sb.append("03/");
+                	run = false;
+            	}
+
+            	else if(choice == 3)
+            	{
+               		sb.append("04/");
+               		run = false;
+            	}
+            	//User input invalid choice
+            	else
+            	{
+                	System.out.println("\nInvalid choice! Try again!\n");
+            	}	
+	}
+	run = true;
+	
+	//User enters a date for February
+	if(choice == 1)
+	{
 		while(run)
 		{
-			System.out.println("\nPlease select from the following options:\n");
-            System.out.println("To use a date from February.. Enter '1'");
-            System.out.println("To use a date from March..... Enter '2'");
-            System.out.println("To use a date from April..... Enter '3'");
-            
-            temp = keyboard.nextLine();
-            try
-            {
-				choice = Integer.parseInt(temp);
+			System.out.print("Please enter a day for February (1-28): ");
+			temp = keyboard.nextLine();
+				
+			try
+			{
+				day = Integer.parseInt(temp);
 			}
 			catch(Exception e)
 			{
 				System.out.println("\nInvalid choice! Try again!\n");
 			}
-            
-            if(choice == 1)
-            {
-				sb.append("02/");
+			if(day > 0 && day < 10)
+			{
+				sb.append("0");
+				sb.append(day);
 				run = false;
-            }
-
-            else if(choice == 2)
-            {
-                sb.append("03/");
-                run = false;
-            }
-
-            else if(choice == 3)
-            {
-               sb.append("04/");
-               run = false;
-            }
-            //User input invalid choice
-            else
-            {
-                System.out.println("\nInvalid choice! Try again!\n");
-            }	
-		}
-		run = true;
-	
-			//User enters a date for February
-			if(choice == 1)
+			} 
+			else if(day > 9 && day < 29)
 			{
-				while(run)
-				{
-					System.out.print("Please enter a day for February (1-28): ");
-					temp = keyboard.nextLine();
-				
-					try
-					{
-						day = Integer.parseInt(temp);
-					}
-					catch(Exception e)
-					{
-						System.out.println("\nInvalid choice! Try again!\n");
-					}
-					if(day > 0 && day < 10)
-					{
-						sb.append("0");
-						sb.append(day);
-						run = false;
-					} 
-					else if(day > 9 && day < 29)
-					{
-						sb.append(day);
-						run = false;
-					} 
-					else
-					{
-						System.out.println("\nInvalid choice! Try again!\n");
-					}
-				}
-			}
-			
-			//User enters a date for March 
-			else if(choice == 2)
-			{
-				while(run)
-				{			
-					//Output							
-					System.out.print("Please enter a day for March (1-31): ");
-					temp = keyboard.nextLine();
-				
-					//Parse int
-					try
-					{
-						day = Integer.parseInt(temp);
-					}
-					catch(Exception e)
-					{
-						System.out.println("\nInvalid choice! Try again!\n");
-					}
-					
-					if(day > 0 && day < 10)
-					{
-						sb.append("0");
-						sb.append(day);
-						run = false;
-					} 
-					else if(day > 9 && day < 32)
-					{
-						sb.append(day);
-						run = false;
-					} 
-					else
-					{
-						System.out.println("\nInvalid choice! Try again!\n");
-					}
-				}
-			}
-			
-			//User enters a date for April
+				sb.append(day);
+				run = false;
+			} 
 			else
 			{
-				while(run)
-				{
-					//Output
-					System.out.print("Please enter a day for April (1-30): ");
-					temp = keyboard.nextLine();
-					
-					//Parse int
-					try
-					{
-						day = Integer.parseInt(temp);
-					}
-					catch(Exception e)
-					{
-						System.out.println("\nInvalid choice! Try again!\n");
-					}
-					if(day > 0 && day < 10)
-					{
-						sb.append("0");
-						sb.append(day);
-						run = false;
-					} 
-					else if(day > 9 && day < 31)
-					{
-						sb.append(day);
-						run = false;
-					} 
-					else
-					{
-						System.out.println("\nInvalid choice! Try again!\n");
-					}
-				}
+				System.out.println("\nInvalid choice! Try again!\n");
 			}
-		return dateString;
+		}
 	}
+			
+	//User enters a date for March 
+	else if(choice == 2)
+	{
+		while(run)
+		{			
+			//Output							
+			System.out.print("Please enter a day for March (1-31): ");
+			temp = keyboard.nextLine();
+				
+			//Parse int
+			try
+			{
+				day = Integer.parseInt(temp);
+			}
+			catch(Exception e)
+			{
+				System.out.println("\nInvalid choice! Try again!\n");
+			}
+					
+			if(day > 0 && day < 10)
+			{
+				sb.append("0");
+				sb.append(day);
+				run = false;
+			} 
+			else if(day > 9 && day < 32)
+			{
+				sb.append(day);
+				run = false;
+			} 
+			else
+			{
+				System.out.println("\nInvalid choice! Try again!\n");
+			}
+		}
+	}
+			
+	//User enters a date for April
+	else
+	{
+		while(run)
+		{
+			//Output
+			System.out.print("Please enter a day for April (1-30): ");
+			temp = keyboard.nextLine();
+					
+			//Parse int
+			try
+			{
+				day = Integer.parseInt(temp);
+			}
+			catch(Exception e)
+			{
+				System.out.println("\nInvalid choice! Try again!\n");
+			}
+			if(day > 0 && day < 10)
+			{
+				sb.append("0");
+				sb.append(day);
+				run = false;
+			} 
+			else if(day > 9 && day < 31)
+			{
+				sb.append(day);
+				run = false;
+			} 
+			else
+			{
+				System.out.println("\nInvalid choice! Try again!\n");
+			}
+		}
+	}
+	return dateString;
+    }
 }
