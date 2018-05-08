@@ -16,6 +16,7 @@ import java.util.Scanner;
  *
  * @author gabrielsiguenza
  */
+
 public class UtilityBelt {
 
     // DESCRIPTION:		centers text value within total width given for one line

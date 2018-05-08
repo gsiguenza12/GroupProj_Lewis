@@ -1,22 +1,45 @@
 package com.gsiguenza;
 
-public class Currency {
-    String coinName;
-    String coinSymbol;
-    double coinPriceHigh, coinPriceLow, coinOpenPrice, coinClosePrice, coinCirculating, coinMarket;
-    public Currency(){
+import java.util.Objects;
 
+/****************************************************************************
+ * AUTHORS: Gabriel Siguenza, Michael Fogel, Steven Peter Molina
+ * COURSE: CS 113
+ * Monday 5:30 PM - 9:20 PM
+ * Assignment: Final Project
+ * PROJECT #: Currency.java
+ * LAST MODIFIED: 05/07/2018
+ *****************************************************************************/
+
+/**
+ * A class to hold digital currency values.
+ */
+public class Currency {
+    public static final String DEFAULT_NAME = "no name";
+    public static final String DEFAULT_SYMBOL = "NUL";
+    public static final double DEFAULT_HIGH = 0.0;
+    public static final double DEFAULT_LOW = 0.0;
+    public static final double DEFAULT_OPEN = 0.0;
+    public static final double DEFAULT_CLOSE = 0.0;
+    public static final double DEFAULT_CIRCULATING = 0.0;
+    public static final double DEFAULT_MARKET = 0.0;
+
+    private String coinName;
+    private String coinSymbol;
+    private double coinPriceHigh;
+    private double coinPriceLow;
+    private double coinOpenPrice;
+    private double coinClosePrice;
+    private double coinCirculating;
+    private double coinMarket;
+
+    public Currency(){
+        setAll(DEFAULT_NAME,DEFAULT_SYMBOL,DEFAULT_HIGH,DEFAULT_LOW,DEFAULT_OPEN,DEFAULT_CLOSE,DEFAULT_CIRCULATING,DEFAULT_MARKET);
     }
+
     public Currency(String coinName, String coinSymbol, double coinPriceHigh, double coinPriceLow, double coinOpenPrice, double coinClosePrice,
                     double coinCirculating, double coinMarket){
-        this.coinName = coinName;
-        this.coinSymbol = coinSymbol;
-        this.coinPriceHigh = coinPriceHigh;
-        this.coinPriceLow = coinPriceLow;
-        this.coinOpenPrice = coinOpenPrice;
-        this.coinClosePrice = coinClosePrice;
-        this.coinCirculating = coinCirculating;
-        this.coinMarket = coinMarket;
+        setAll(coinName,coinSymbol,coinPriceHigh,coinPriceLow,coinOpenPrice,coinClosePrice,coinCirculating,coinMarket);
     }
 
     //getters
@@ -52,7 +75,20 @@ public class Currency {
     {
         return coinMarket;
     }
+
     //setters
+    public void setAll(String coinName, String coinSymbol, double coinPriceHigh, double coinPriceLow, double coinOpenPrice, double coinClosePrice,
+                       double coinCirculating, double coinMarket) {
+        this.coinName = coinName;
+        this.coinSymbol = coinSymbol;
+        this.coinPriceHigh = coinPriceHigh;
+        this.coinPriceLow = coinPriceLow;
+        this.coinOpenPrice = coinOpenPrice;
+        this.coinClosePrice = coinClosePrice;
+        this.coinCirculating = coinCirculating;
+        this.coinMarket = coinMarket;
+    }
+
     public void setCoinName(String coinName)
     {
         this.coinName =  coinName;
@@ -94,4 +130,24 @@ public class Currency {
                 +"\n Coins in circulating:"+getCoinCirculating() +"\n Coins in the market:"+getCoinMarket();
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Currency currency = (Currency) o;
+        return Double.compare(currency.getCoinPriceHigh(), getCoinPriceHigh()) == 0 &&
+                Double.compare(currency.getCoinPriceLow(), getCoinPriceLow()) == 0 &&
+                Double.compare(currency.getCoinOpenPrice(), getCoinOpenPrice()) == 0 &&
+                Double.compare(currency.getCoinClosePrice(), getCoinClosePrice()) == 0 &&
+                Double.compare(currency.getCoinCirculating(), getCoinCirculating()) == 0 &&
+                Double.compare(currency.getCoinMarket(), getCoinMarket()) == 0 &&
+                Objects.equals(getCoinName(), currency.getCoinName()) &&
+                Objects.equals(getCoinSymbol(), currency.getCoinSymbol());
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(getCoinName(), getCoinSymbol(), getCoinPriceHigh(), getCoinPriceLow(), getCoinOpenPrice(), getCoinClosePrice(), getCoinCirculating(), getCoinMarket());
+    }
 }
