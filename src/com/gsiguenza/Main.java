@@ -106,6 +106,7 @@ public class Main
 
             /** User options **/
 
+            /* Should be replaced with switch */
             //Displays all coin data for specific date
             if(choice == 1)
             {
