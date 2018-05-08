@@ -288,7 +288,7 @@ public class Main
     }
     
         //User menu for date selection, outputs int value to use for hashmap
-    public static int dateConvert()
+    public static String dateConvert()
     {
 		Scanner keyboard = new Scanner(System.in);
 		String temp = null;
@@ -448,6 +448,6 @@ public class Main
 					}
 				}
 			}
-		return date;
+		return dateString;
 	}
 }
