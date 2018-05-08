@@ -287,7 +287,7 @@ public class Main
         }
     }
     
-        //User menu for date selection, outputs int value to use for hashmap
+    //User menu for date selection, outputs String value to use for hashmap
     public static String dateConvert()
     {
 	Scanner keyboard = new Scanner(System.in);
@@ -302,12 +302,16 @@ public class Main
 	//User selects month from menu
 	while(run)
 	{
+		//Output
 		System.out.println("\nPlease select from the following options:\n");
         	System.out.println("To use a date from February.. Enter '1'");
        		System.out.println("To use a date from March..... Enter '2'");
             	System.out.println("To use a date from April..... Enter '3'");
-            
+            	
+		//Input
             	temp = keyboard.nextLine();
+		
+		//Attempt to parse month choice
             	try
             	{
 			choice = Integer.parseInt(temp);
@@ -316,22 +320,31 @@ public class Main
 		{
 			System.out.println("\nInvalid choice! Try again!\n");
 		}
-            
+            	
+		//If user selected "february"
             	if(choice == 1)
             	{
+			//adds month & '/' to sb
 			sb.append("02/");
+			//breaks loop
 			run = false;
             	}
-
+		
+		//If user selected "march"
             	else if(choice == 2)
             	{
+			//adds month & '/' to sb
                 	sb.append("03/");
+			//breaks loop
                 	run = false;
             	}
 
+		//If user selected "april"
             	else if(choice == 3)
             	{
+			//adds month & '/' to sb
                		sb.append("04/");
+			//breaks loop
                		run = false;
             	}
             	//User input invalid choice
@@ -340,16 +353,19 @@ public class Main
                 	System.out.println("\nInvalid choice! Try again!\n");
             	}	
 	}
+	//Reset to run next loop
 	run = true;
 	
-	//User enters a date for February
+	//If user selects february
 	if(choice == 1)
 	{
 		while(run)
 		{
+			//output
 			System.out.print("Please enter a day for February (1-28): ");
+			//input
 			temp = keyboard.nextLine();
-				
+			//Attempt to parse	
 			try
 			{
 				day = Integer.parseInt(temp);
@@ -358,17 +374,26 @@ public class Main
 			{
 				System.out.println("\nInvalid choice! Try again!\n");
 			}
+			
+			//if day is between 1st & 9th
 			if(day > 0 && day < 10)
 			{
+				//adds '0'before int if below 10 in String
 				sb.append("0");
+				//adds day to String sb
 				sb.append(day);
+				//breaks loop
 				run = false;
 			} 
+			//if day is between 10th & 30th
 			else if(day > 9 && day < 29)
 			{
+				//adds day to String sb
 				sb.append(day);
+				//breaks loop
 				run = false;
 			} 
+			//invalid value
 			else
 			{
 				System.out.println("\nInvalid choice! Try again!\n");
@@ -394,18 +419,25 @@ public class Main
 			{
 				System.out.println("\nInvalid choice! Try again!\n");
 			}
-					
+			//if day is between 1st & 9th		
 			if(day > 0 && day < 10)
 			{
+				//adds '0'before int if below 10 in String
 				sb.append("0");
+				//adds day to String sb
 				sb.append(day);
+				//breaks loop
 				run = false;
 			} 
+			//if day is between 10th & 31st
 			else if(day > 9 && day < 32)
 			{
+				//adds day to String sb
 				sb.append(day);
+				//breaks loop
 				run = false;
-			} 
+			}
+			//invalid value
 			else
 			{
 				System.out.println("\nInvalid choice! Try again!\n");
@@ -422,7 +454,7 @@ public class Main
 			System.out.print("Please enter a day for April (1-30): ");
 			temp = keyboard.nextLine();
 					
-			//Parse int
+			//Attempt to parse Int
 			try
 			{
 				day = Integer.parseInt(temp);
@@ -431,23 +463,32 @@ public class Main
 			{
 				System.out.println("\nInvalid choice! Try again!\n");
 			}
+			//if day is between 1st & 9th
 			if(day > 0 && day < 10)
 			{
+				//adds '0'before int if below 10 in String
 				sb.append("0");
+				//adds day to String sb
 				sb.append(day);
+				//breaks loop
 				run = false;
 			} 
+			//if day is between 10th & 30th
 			else if(day > 9 && day < 31)
 			{
+				//adds day to String sb
 				sb.append(day);
+				//breaks loop
 				run = false;
 			} 
+			//invalid value
 			else
 			{
 				System.out.println("\nInvalid choice! Try again!\n");
 			}
 		}
 	}
+	//Returns string for hashmap in format xx/xx
 	return dateString;
     }
 }
