@@ -34,29 +34,11 @@ public class Main
 
         //Can be removed & replaced with getName() with coin object
         HashMap<String, String> coins = new HashMap<String, String>();
-        coins.put("btc", "Bitcoin");
-        coins.put("eth", "Ethereum");
-        coins.put("xrp", "Ripple");
-        coins.put("bch", "Bitcoin Cash");
-        coins.put("eos", "EOS");
-        coins.put("ada", "Cardano");
-        coins.put("ltc", "Litecoin");
-        coins.put("xlm", "Stellar");
-        coins.put("neo", "NEO");
-        coins.put("trx", "TRON");
+
 
         //Can be removed & replaced with .getSymbol() with coin object
         HashMap<String, String> symbol = new HashMap<String, String>();
-        symbol.put("btc", "(BTC)");
-        symbol.put("eth", "(ETH)");
-        symbol.put("xrp", "(XRP)");
-        symbol.put("bch", "(BCH)");
-        symbol.put("eos", "(EOS)");
-        symbol.put("ada", "(ADA)");
-        symbol.put("ltc", "(LTC)");
-        symbol.put("xlm", "(XLM)");
-        symbol.put("neo", "(NEO)");
-        symbol.put("trx", "(TRX)");
+
 
         /** Program Output **/
         System.out.println("Welcome to the Crypto Currency Database!");
@@ -500,5 +482,39 @@ public class Main
         System.out.printf("| 9.  %-15s %5s   |\n", coins.get("neo"), symbol.get("neo") ); //Can replace with .getName() method for each coin
         System.out.printf("| 10. %-14s  %5s   |\n", coins.get("trx"), symbol.get("trx") ); //Can replace with .getName() method for each coin
         System.out.println(BORDER);
+    }
+
+    /**
+     *
+     * @param coins
+     */
+    public static void populateCoinMap(HashMap<String, String> coins) {
+        coins.put("btc", "Bitcoin");
+        coins.put("eth", "Ethereum");
+        coins.put("xrp", "Ripple");
+        coins.put("bch", "Bitcoin Cash");
+        coins.put("eos", "EOS");
+        coins.put("ada", "Cardano");
+        coins.put("ltc", "Litecoin");
+        coins.put("xlm", "Stellar");
+        coins.put("neo", "NEO");
+        coins.put("trx", "TRON");
+    }
+
+    /**
+     *
+     * @param symbol
+     */
+    public static void populateSymbolMap(HashMap<String, String> symbol) {
+        symbol.put("btc", "(BTC)");
+        symbol.put("eth", "(ETH)");
+        symbol.put("xrp", "(XRP)");
+        symbol.put("bch", "(BCH)");
+        symbol.put("eos", "(EOS)");
+        symbol.put("ada", "(ADA)");
+        symbol.put("ltc", "(LTC)");
+        symbol.put("xlm", "(XLM)");
+        symbol.put("neo", "(NEO)");
+        symbol.put("trx", "(TRX)");
     }
 }
