@@ -1,0 +1,5 @@
+<keymap version="1" name="Gabes KeyMap" parent="Mac OS X 10.5+">
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+</keymap>
