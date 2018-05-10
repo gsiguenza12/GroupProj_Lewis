@@ -121,13 +121,12 @@ public class Currency {
     {
         this.coinMarket = coinMarket;
     }
-
     public String toString()
     {
-        return "Coin name:"+getCoinName()+"\n Coin Symbol:"+getCoinSymbol()
-                +"\n Coin price at high:"+getCoinPriceHigh()+"\n Coin price at low:"+getCoinPriceLow()
-                +"\n Coin price at open:"+getCoinOpenPrice() +"\n Coin price at close:"+getCoinClosePrice()
-                +"\n Coins in circulating:"+getCoinCirculating() +"\n Coins in the market:"+getCoinMarket();
+        return "Coin name:"+getCoinName()+"\nCoin Symbol:"+getCoinSymbol()
+                +"\n Coin price at high:"+getCoinPriceHigh()+"\nCoin price at low:"+getCoinPriceLow()
+                +"\nCoin price at open:"+getCoinOpenPrice() +"\nCoin price at close:"+getCoinClosePrice()
+                +"\nCoins in circulating:"+getCoinCirculating() +"\nCoins in the market:"+getCoinMarket();
     }
 
     @Override

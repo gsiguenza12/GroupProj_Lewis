@@ -1,7 +1,7 @@
 package com.gsiguenza;
 
 /****************************************************************************
- * AUTHORS: Gabriel Siguenza, Michael Fogel, Steven Peter Molina
+ * AUTHORS: Gabriel Siguenza, Michael Fogel, Steven Peter Molina, Javier Garcia
  * COURSE: CS 113
  * Monday 5:30 PM - 9:20 PM
  * Assignment: Final Project
@@ -23,6 +23,7 @@ import java.util.Scanner;
 public class Main
 {
     public static final String BORDER = "-------------------------------";
+
 
     public static void main(String[] args)
     {
