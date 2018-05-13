@@ -11,6 +11,16 @@ import java.util.List;
 
 
 public class test{
+    public static final String BORDER = "-------------------------------";
+    public static final String ADA = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/ADA.txt";
+    public static final String BCH = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/BCH.txt";
+    public static final String EOS = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/EOS.txt";
+    public static final String ETH = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/ETH.txt";
+    public static final String LTC = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/LTC.txt";
+    public static final String MIOTA = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/MIOTA.txt";
+    public static final String TRX = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/TRX.txt";
+    public static final String XLM = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/XLM.txt";
+    public static final String XRP = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/XRP.txt";
 
     public static void main(String[] args) {
         //This variables will be use to hold the variables from the file
@@ -29,7 +39,8 @@ public class test{
         //the hashMap.
         //reading in file
         try {
-            BufferedReader br = new BufferedReader(new FileReader("test.txt"));
+            BufferedReader br = new BufferedReader(new FileReader(ADA));
+
 
         }catch (IOException e){
             System.out.println("File not found");
@@ -37,6 +48,7 @@ public class test{
 
         //HAshMap that holds multiple values with the same key
         Map<String, List<String>> map = new HashMap<String, List<String>>();
+
         //testing if it works
         List<String> setOne = new ArrayList<String>();
         setOne.add("Hello");
