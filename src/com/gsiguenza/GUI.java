@@ -1,6 +1,5 @@
 package com.gsiguenza;
 
-import com.sun.deploy.panel.ExceptionListDialog;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

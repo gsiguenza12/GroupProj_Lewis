@@ -3,7 +3,9 @@ package com.gsiguenza;
 import java.io.*;
 import java.util.*;
 
-
+/**
+ * A class for reading in data from text files, creates instances of the Currency class to be stored into hashMap.
+ */
 public class test{
     public static final String BORDER = "-------------------------------";
     public static final String ADA = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/ADA.txt";
@@ -28,7 +30,12 @@ public class test{
         Scanner in;
         String[] wordChunk;
         int chunkSize = 9;
+        TreeMap<String, Currency> coins = new TreeMap<>();
 
+        //TODO: Move into method that handles all the file reading.
+        /*
+        Alternatively could consolidate all 3 files into one text file.
+         */
         try {
             in = new Scanner(new FileReader(ADA));
 //            in.useDelimiter(",");
@@ -82,6 +89,7 @@ public class test{
         } catch (IOException e) {
             e.printStackTrace();
         }
+
 
 
     }
