@@ -13,7 +13,7 @@ import java.util.List;
 public class test{
 
     public static void main(String[] args) {
-        //Think of making key value that storage the key. Then having 5 other variables to hold them
+        //This variables will be use to hold the variables from the file
         String key;
         String openPrices;
         String high;
@@ -22,8 +22,12 @@ public class test{
         String volume;
         String market;
 
+
+
+        //will make a for lope that will go by each line store the values
+        // and after when it reaches the end. Then have an other for lope that will put them in
+        //the hashMap.
         //reading in file
-        //
         try {
             BufferedReader br = new BufferedReader(new FileReader("test.txt"));
 
