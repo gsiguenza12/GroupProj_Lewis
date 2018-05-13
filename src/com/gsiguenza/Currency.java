@@ -32,14 +32,23 @@ public class Currency {
     private double coinClosePrice;
     private double coinCirculating;
     private double coinMarket;
+    private Date date;
 
     public Currency(){
-        setAll(DEFAULT_NAME,DEFAULT_SYMBOL,DEFAULT_HIGH,DEFAULT_LOW,DEFAULT_OPEN,DEFAULT_CLOSE,DEFAULT_CIRCULATING,DEFAULT_MARKET);
+        setAll(DEFAULT_NAME,DEFAULT_SYMBOL,DEFAULT_HIGH,DEFAULT_LOW,DEFAULT_OPEN,DEFAULT_CLOSE,DEFAULT_CIRCULATING,DEFAULT_MARKET, new Date());
     }
 
-    public Currency(String coinName, String coinSymbol, double coinPriceHigh, double coinPriceLow, double coinOpenPrice, double coinClosePrice,
-                    double coinCirculating, double coinMarket){
-        setAll(coinName,coinSymbol,coinPriceHigh,coinPriceLow,coinOpenPrice,coinClosePrice,coinCirculating,coinMarket);
+    public Currency(String coinName, double coinPriceHigh, double coinPriceLow, double coinOpenPrice, double coinClosePrice,
+                    double coinCirculating, double coinMarket, Date theDate){
+        setAll(coinName,coinSymbol,coinPriceHigh,coinPriceLow,coinOpenPrice,coinClosePrice,coinCirculating,coinMarket, theDate);
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
     }
 
     //getters
@@ -78,7 +87,7 @@ public class Currency {
 
     //setters
     public void setAll(String coinName, String coinSymbol, double coinPriceHigh, double coinPriceLow, double coinOpenPrice, double coinClosePrice,
-                       double coinCirculating, double coinMarket) {
+                       double coinCirculating, double coinMarket, Date date) {
         this.coinName = coinName;
         this.coinSymbol = coinSymbol;
         this.coinPriceHigh = coinPriceHigh;
@@ -87,6 +96,8 @@ public class Currency {
         this.coinClosePrice = coinClosePrice;
         this.coinCirculating = coinCirculating;
         this.coinMarket = coinMarket;
+        this.date = date;
+
     }
 
     public void setCoinName(String coinName)
@@ -123,7 +134,7 @@ public class Currency {
     }
     public String toString()
     {
-        return "Coin name:"+getCoinName()+"\nCoin Symbol:"+getCoinSymbol()
+        return "Date: " + getDate() + "\nCoin name:"+getCoinName()+"\nCoin Symbol:"+getCoinSymbol()
                 +"\n Coin price at high:"+getCoinPriceHigh()+"\nCoin price at low:"+getCoinPriceLow()
                 +"\nCoin price at open:"+getCoinOpenPrice() +"\nCoin price at close:"+getCoinClosePrice()
                 +"\nCoins in circulating:"+getCoinCirculating() +"\nCoins in the market:"+getCoinMarket();

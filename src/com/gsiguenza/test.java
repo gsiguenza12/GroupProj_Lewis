@@ -1,13 +1,7 @@
 package com.gsiguenza;
 
-import java.io.IOException;
-import java.io.FileReader;
-import java.io.BufferedReader;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.ArrayList;
-import java.util.List;
-
+import java.io.*;
+import java.util.*;
 
 
 public class test{
@@ -30,34 +24,78 @@ public class test{
         String low;
         String closePrice;
         String volume;
-        String market;
+        String marketCap;
+        Scanner in;
+        String[] wordChunk;
+        int chunkSize = 9;
 
-
-
-        //will make a for lope that will go by each line store the values
-        // and after when it reaches the end. Then have an other for lope that will put them in
-        //the hashMap.
-        //reading in file
         try {
-            BufferedReader br = new BufferedReader(new FileReader(ADA));
+            in = new Scanner(new FileReader(ADA));
+//            in.useDelimiter(",");
+
+            wordChunk = new String[chunkSize];
+
+            while (in.hasNextLine()) {
+
+                // reading in 7 variables for coin.
+                for (int i = 0; i < chunkSize; i++) {
+
+                    wordChunk[i] = (in.next());
+
+                }
+
+                // each index of wordChunk should hold 1 of the String variables.
+
+                /*
+                public Currency(String coinName, String coinSymbol, double coinPriceHigh, double coinPriceLow, double coinOpenPrice, double coinClosePrice,
+                    double coinCirculating, double coinMarket){
+                setAll(coinName,coinSymbol,coinPriceHigh,coinPriceLow,coinOpenPrice,coinClosePrice,coinCirculating,coinMarket);
+                }
+                 */
+
+                for (int i = 0; i < chunkSize; i++) {
+                    System.out.println("String: " + wordChunk[i]);
+                }
+
+                Currency test = new Currency();
+
+                test.setCoinName("Cardano");
+                test.setDate(new Date(wordChunk[0],Integer.parseInt(removePunctuation(wordChunk[1])),Integer.parseInt(wordChunk[2])));
+                System.out.println(test);
+                test.setCoinOpenPrice(Double.parseDouble(wordChunk[3]));
+                test.setCoinPriceHigh(Double.parseDouble(wordChunk[4]));
+                test.setCoinPriceLow(Double.parseDouble(wordChunk[5]));
+                test.setCoinClosePrice(Double.parseDouble(wordChunk[6]));
+                test.setCoinOpenPrice(Double.parseDouble(removePunctuation(wordChunk[7])));
+                test.setCoinClosePrice(Double.parseDouble(removePunctuation(wordChunk[8])));
+
+//                System.out.println(); // print a line.
 
 
-        }catch (IOException e){
-            System.out.println("File not found");
+            }
+            in.close();
+
+        } catch (NoSuchElementException e) {
+            System.out.println("Caught: NoSuchElementException");
+            // terminate loop?
+
+        } catch (IOException e) {
+            e.printStackTrace();
         }
 
-        //HAshMap that holds multiple values with the same key
-        Map<String, List<String>> map = new HashMap<String, List<String>>();
 
-        //testing if it works
-        List<String> setOne = new ArrayList<String>();
-        setOne.add("Hello");
-        setOne.add("bye");
-//print out the entry for the key
-    for (Map.Entry<String, List<String>> entry : map.entrySet()) {
+    }
 
-            System.out.println("\n"+entry.getKey()+" "+setOne.get(0));
+    /**
+     * Uses String regex to remove punctuation from Strings read from file.
+     *
+     * @param word String original word that may contain punctuation
+     * @return removed String with punctuation removed
+     */
+    public static String removePunctuation(String word) {
+        // remove all punctuation using regex.
+        String removed = word.replaceAll("\\W", "").trim();
 
-        }
+        return removed;
     }
 }

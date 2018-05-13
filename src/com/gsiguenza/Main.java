@@ -516,4 +516,5 @@ public class Main
         symbol.put("neo", "(NEO)");
         symbol.put("trx", "(TRX)");
     }
+
 }
