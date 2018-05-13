@@ -1,7 +1,7 @@
 package com.gsiguenza;
 
 /****************************************************************************
- * AUTHORS: Gabriel Siguenza, Michael Fogel, Steven Peter Molina, Javier Garcia
+ * AUTHORS: Gabriel Siguenza, Michael Fogel, Steven Peter Molina
  * COURSE: CS 113
  * Monday 5:30 PM - 9:20 PM
  * Assignment: Final Project
@@ -32,7 +32,6 @@ public class Main
     public static final String TRX = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/TRX.txt";
     public static final String XLM = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/XLM.txt";
     public static final String XRP = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/XRP.txt";
-
 
 
 
