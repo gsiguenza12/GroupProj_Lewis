@@ -342,7 +342,15 @@ public class Date implements Cloneable
         {
             result = 1;
         }
+        else if(month.equalsIgnoreCase("January"))
+        {
+            result = 1;
+        }
         else if (month.equalsIgnoreCase("Feb"))
+        {
+            result = 2;
+        }
+        else if (month.equalsIgnoreCase("February"))
         {
             result = 2;
         }
@@ -350,7 +358,15 @@ public class Date implements Cloneable
         {
             result = 3;
         }
+        else if (month.equalsIgnoreCase("March"))
+        {
+            result = 3;
+        }
         else if (month.equalsIgnoreCase("Apr"))
+        {
+            result = 4;
+        }
+        else if (month.equalsIgnoreCase("April"))
         {
             result = 4;
         }

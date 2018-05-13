@@ -1,13 +1,20 @@
 package com.gsiguenza;
 
-
-import jdk.nashorn.internal.scripts.JO;
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/****************************************************************************
+ * AUTHORS: Gabriel Siguenza, Michael Fogel, Steven Peter Molina
+ * COURSE: CS 113
+ * Monday 5:30 PM - 9:20 PM
+ * Assignment: Final Project
+ * PROJECT #: Date.java
+ * LAST MODIFIED: 05/07/2018
+ *****************************************************************************/
+
 public class GUI {
+
     //Buttons
     private JButton buttonOne;
     private JButton buttonTwo;

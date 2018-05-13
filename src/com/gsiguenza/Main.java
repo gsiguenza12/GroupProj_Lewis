@@ -52,11 +52,26 @@ public class Main {
         populateSymbolMap(symbol);
 
 
-        /** Program Output **/
+        /* Program Output */
         System.out.println("Welcome to the Crypto Currency Database!");
         printCoins(coins, symbol);
 
-        /** User Input + Processing**/
+        /* User Input + Processing*/
+        menu(keyboard);
+
+        //End of program
+        System.exit(0);
+    }
+
+    /**
+     *
+     * @param keyboard
+     */
+    public static void menu(Scanner keyboard) {
+        boolean run = true;
+        int choice;
+
+
         while (run) {
             System.out.println("\nPlease select from the following options:");
             System.out.println("To display ALL coin data for a specific date.... Enter '1'");
@@ -201,8 +216,6 @@ public class Main {
 
         }
 
-        //End of program
-        System.exit(0);
     }
 
     //Method determines whether user wants to rerun the program or exit
@@ -244,7 +257,11 @@ public class Main {
         }
     }
 
-    //User menu for date selection, outputs String value to use for hashmap
+    /**
+     * Method to convert date
+     *
+     * @return
+     */
     public static String dateConvert() {
         Scanner keyboard = new Scanner(System.in);
         String temp = null;
