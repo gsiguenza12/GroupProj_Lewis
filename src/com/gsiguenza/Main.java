@@ -70,19 +70,8 @@ public class Main
             System.out.println("To sort by lowest closing price................. Enter '10'");
             System.out.print("Choice: ");
 
-            //User input
-            temp = keyboard.nextLine();
-
             //Error checking user input
-            try
-            {
-                choice = Integer.parseInt(temp);
-            }
-            catch(Exception e)
-            {
-                System.out.println("\nInvalid choice! Try again!");
-            }
-
+            UtilityBelt.readInt("Please enter your selection: ", keyboard, 0, 10);
             /** User options **/
 
             /* Should be replaced with switch */
