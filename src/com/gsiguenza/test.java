@@ -18,6 +18,278 @@ public class test{
      * @param originalMap pass in a tree map from main that will be used to build the database.
      *
      */
+    public static double priceFluctuate(String coinName, String coinSymbol, String FILEPATH, TreeMap<String, ArrayList<Currency>> originalMap){
+        //This variables will be use to hold the variables from the file
+        String key;
+        String openPrices;
+        String high;
+        String low;
+        String closePrice;
+        String volume;
+        String marketCap;
+        int count = 0;
+        double priceFluctuation = 0;
+
+        Scanner in;
+        String[] wordChunk;
+        int chunkSize = 9;
+
+        ArrayList<Currency> coinsList = new ArrayList<>();
+
+        originalMap.put(coinName, coinsList);
+//        Currency[] a = new Currency[];
+
+//        coins.
+        //TODO: Move into method that handles all the file reading.
+        /*
+        Alternatively could consolidate all 3 files into one text file.
+         */
+        try {
+            Currency test = new Currency();
+            in = new Scanner(new FileReader(FILEPATH));
+//            in.useDelimiter(",");
+
+            wordChunk = new String[chunkSize];
+
+            while (in.hasNextLine()) {
+                count++;
+                // reading in 7 variables for coin.
+                for (int i = 0; i < chunkSize; i++) {
+
+                    wordChunk[i] = (in.next());
+
+                }
+
+                // each index of wordChunk should hold 1 of the String variables.
+
+                /*
+                public Currency(String coinName, String coinSymbol, double coinPriceHigh, double coinPriceLow, double coinOpenPrice, double coinClosePrice,
+                    double coinCirculating, double coinMarket){
+                setAll(coinName,coinSymbol,coinPriceHigh,coinPriceLow,coinOpenPrice,coinClosePrice,coinCirculating,coinMarket);
+                }
+                 */
+
+//                for (int i = 0; i < chunkSize; i++) {
+//                    System.out.println("String: " + wordChunk[i]);
+//                }
+
+                test.setCoinName(coinName);
+                test.setCoinSymbol(coinSymbol);
+                test.setDate(new Date(wordChunk[0],Integer.parseInt(removePunctuation(wordChunk[1])),Integer.parseInt(wordChunk[2])));
+                test.setCoinOpenPrice(Double.parseDouble(wordChunk[3]));
+                test.setCoinPriceHigh(Double.parseDouble(wordChunk[4]));
+                test.setCoinPriceLow(Double.parseDouble(wordChunk[5]));
+                test.setCoinClosePrice(Double.parseDouble(wordChunk[6]));
+                test.setCoinOpenPrice(Float.parseFloat(removePunctuation(wordChunk[7])));
+                test.setCoinClosePrice(Float.parseFloat(removePunctuation(wordChunk[8])));
+
+                System.out.println(test);
+
+                coinsList.add(test);
+//                System.out.println(); // print a line.
+
+                priceFluctuation = (Double.parseDouble(wordChunk[4]) - Double.parseDouble(wordChunk[5]));
+
+            }
+            in.close();
+
+        } catch (NoSuchElementException e) {
+//            System.out.println("Caught: NoSuchElementException");
+            // terminate loop?
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Finished reading files...");
+
+        System.out.println(originalMap);
+//        System.out.println("Current HashMap size " + coins.size());
+
+        return priceFluctuation;
+    }
+
+    public static double priceHigh(String coinName, String coinSymbol, String FILEPATH, TreeMap<String, ArrayList<Currency>> originalMap){
+        //This variables will be use to hold the variables from the file
+        String key;
+        String openPrices;
+        String high;
+        String low;
+        String closePrice;
+        String volume;
+        String marketCap;
+        int count = 0;
+        double priceHigh = 0;
+
+        Scanner in;
+        String[] wordChunk;
+        int chunkSize = 9;
+
+        ArrayList<Currency> coinsList = new ArrayList<>();
+
+        originalMap.put(coinName, coinsList);
+//        Currency[] a = new Currency[];
+
+//        coins.
+        //TODO: Move into method that handles all the file reading.
+        /*
+        Alternatively could consolidate all 3 files into one text file.
+         */
+        try {
+            Currency test = new Currency();
+            in = new Scanner(new FileReader(FILEPATH));
+//            in.useDelimiter(",");
+
+            wordChunk = new String[chunkSize];
+
+            while (in.hasNextLine()) {
+                count++;
+                // reading in 7 variables for coin.
+                for (int i = 0; i < chunkSize; i++) {
+
+                    wordChunk[i] = (in.next());
+
+                }
+
+                // each index of wordChunk should hold 1 of the String variables.
+
+                /*
+                public Currency(String coinName, String coinSymbol, double coinPriceHigh, double coinPriceLow, double coinOpenPrice, double coinClosePrice,
+                    double coinCirculating, double coinMarket){
+                setAll(coinName,coinSymbol,coinPriceHigh,coinPriceLow,coinOpenPrice,coinClosePrice,coinCirculating,coinMarket);
+                }
+                 */
+
+//                for (int i = 0; i < chunkSize; i++) {
+//                    System.out.println("String: " + wordChunk[i]);
+//                }
+
+                test.setCoinName(coinName);
+                test.setCoinSymbol(coinSymbol);
+                test.setDate(new Date(wordChunk[0],Integer.parseInt(removePunctuation(wordChunk[1])),Integer.parseInt(wordChunk[2])));
+                test.setCoinOpenPrice(Double.parseDouble(wordChunk[3]));
+                test.setCoinPriceHigh(Double.parseDouble(wordChunk[4]));
+                test.setCoinPriceLow(Double.parseDouble(wordChunk[5]));
+                test.setCoinClosePrice(Double.parseDouble(wordChunk[6]));
+                test.setCoinOpenPrice(Float.parseFloat(removePunctuation(wordChunk[7])));
+                test.setCoinClosePrice(Float.parseFloat(removePunctuation(wordChunk[8])));
+
+                System.out.println(test);
+
+                coinsList.add(test);
+//                System.out.println(); // print a line.
+
+                priceHigh = Double.parseDouble(wordChunk[4]);
+
+            }
+            in.close();
+
+        } catch (NoSuchElementException e) {
+//            System.out.println("Caught: NoSuchElementException");
+            // terminate loop?
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Finished reading files...");
+
+        System.out.println(originalMap);
+//        System.out.println("Current HashMap size " + coins.size());
+
+    return priceHigh;
+    }
+    public static double priceLow(String coinName, String coinSymbol, String FILEPATH, TreeMap<String, ArrayList<Currency>> originalMap){
+        //This variables will be use to hold the variables from the file
+        String key;
+        String openPrices;
+        String high;
+        String low;
+        String closePrice;
+        String volume;
+        String marketCap;
+        int count = 0;
+        double priceLow = 0;
+
+        Scanner in;
+        String[] wordChunk;
+        int chunkSize = 9;
+
+        ArrayList<Currency> coinsList = new ArrayList<>();
+
+        originalMap.put(coinName, coinsList);
+//        Currency[] a = new Currency[];
+
+//        coins.
+        //TODO: Move into method that handles all the file reading.
+        /*
+        Alternatively could consolidate all 3 files into one text file.
+         */
+        try {
+            Currency test = new Currency();
+            in = new Scanner(new FileReader(FILEPATH));
+//            in.useDelimiter(",");
+
+            wordChunk = new String[chunkSize];
+
+            while (in.hasNextLine()) {
+                count++;
+                // reading in 7 variables for coin.
+                for (int i = 0; i < chunkSize; i++) {
+
+                    wordChunk[i] = (in.next());
+
+                }
+
+                // each index of wordChunk should hold 1 of the String variables.
+
+                /*
+                public Currency(String coinName, String coinSymbol, double coinPriceHigh, double coinPriceLow, double coinOpenPrice, double coinClosePrice,
+                    double coinCirculating, double coinMarket){
+                setAll(coinName,coinSymbol,coinPriceHigh,coinPriceLow,coinOpenPrice,coinClosePrice,coinCirculating,coinMarket);
+                }
+                 */
+
+//                for (int i = 0; i < chunkSize; i++) {
+//                    System.out.println("String: " + wordChunk[i]);
+//                }
+
+                test.setCoinName(coinName);
+                test.setCoinSymbol(coinSymbol);
+                test.setDate(new Date(wordChunk[0],Integer.parseInt(removePunctuation(wordChunk[1])),Integer.parseInt(wordChunk[2])));
+                test.setCoinOpenPrice(Double.parseDouble(wordChunk[3]));
+                test.setCoinPriceHigh(Double.parseDouble(wordChunk[4]));
+                test.setCoinPriceLow(Double.parseDouble(wordChunk[5]));
+                test.setCoinClosePrice(Double.parseDouble(wordChunk[6]));
+                test.setCoinOpenPrice(Float.parseFloat(removePunctuation(wordChunk[7])));
+                test.setCoinClosePrice(Float.parseFloat(removePunctuation(wordChunk[8])));
+
+                System.out.println(test);
+
+                coinsList.add(test);
+//                System.out.println(); // print a line.
+
+                priceLow = Double.parseDouble(wordChunk[5]);
+
+            }
+            in.close();
+
+        } catch (NoSuchElementException e) {
+//            System.out.println("Caught: NoSuchElementException");
+            // terminate loop?
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Finished reading files...");
+
+        System.out.println(originalMap);
+//        System.out.println("Current HashMap size " + coins.size());
+
+        return priceLow;
+    }
+
     public static void readFile(String coinName, String coinSymbol, String FILEPATH, TreeMap<String, ArrayList<Currency>> originalMap) {
 
         //This variables will be use to hold the variables from the file
@@ -29,6 +301,7 @@ public class test{
         String volume;
         String marketCap;
         int count = 0;
+        double priceHigh;
 
         Scanner in;
         String[] wordChunk;
