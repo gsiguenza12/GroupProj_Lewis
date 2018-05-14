@@ -107,6 +107,14 @@ public class Main
 
                 //INPUT AND RETRIEVAL METHODS TO BE ADDED
                 System.out.println(mainList.get("Cardano"));
+                System.out.println(mainList.get("Bitcoin Cash"));
+                System.out.println(mainList.get("Eos"));
+                System.out.println(mainList.get("Ethereum"));
+                System.out.println(mainList.get("Litecoin"));
+                System.out.println(mainList.get("Ioda"));
+                System.out.println(mainList.get("Tron"));
+                System.out.println(mainList.get("Stellar"));
+                System.out.println(mainList.get("Ripple"));
                 //End of choice
                 run = Main.repeat();
             }
@@ -115,6 +123,39 @@ public class Main
             else if(choice == 2)
             {
                 System.out.print("Please enter a coin you would like to view data for: ");
+                Scanner input = new Scanner(System.in);
+                String userInput = input.nextLine();
+                if (userInput.equalsIgnoreCase("Cardano")){
+                    System.out.println(mainList.get("Cardano"));
+                }
+                else if (userInput.equalsIgnoreCase("Bitcoin Cash")){
+                    System.out.println(mainList.get("Bitcoin Cash"));
+                }
+                else if (userInput.equalsIgnoreCase("Eos")){
+                    System.out.println(mainList.get("Eos"));
+                }
+                else if (userInput.equalsIgnoreCase("Ethereum")){
+                    System.out.println(mainList.get("Ethereum"));
+                }
+                else if (userInput.equalsIgnoreCase("Litecoin")){
+                    System.out.println(mainList.get("Litecoin"));
+                }
+                else if (userInput.equalsIgnoreCase("Ioda")){
+                    System.out.println(mainList.get("Ioda"));
+                }
+                else if (userInput.equalsIgnoreCase("Tron")){
+                    System.out.println(mainList.get("Tron"));
+                }
+                else if (userInput.equalsIgnoreCase("Stellar")){
+                    System.out.println(mainList.get("Stellar"));
+                }
+                else if (userInput.equalsIgnoreCase("Ripple")){
+                    System.out.println(mainList.get("Ripple"));
+                }
+                else
+                {
+                    System.out.println("Coin not found in our database");
+                }
                 //INPUT to be added
                 UtilityBelt.readChar("Coin: ",keyboard,"btcBTCethETHxrpXRPbchBCHeosEOSadaADAltcLTCxlmXLMneoNEOtrxTRX");
 
