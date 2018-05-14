@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.gsiguenza.GUI">
-  <grid id="27dc6" binding="MAIN_PANEL" layout-manager="GridLayoutManager" row-count="10" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="MAIN_PANEL" layout-manager="GridLayoutManager" row-count="11" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="369"/>
+      <xy x="20" y="20" width="582" height="648"/>
     </constraints>
     <properties/>
     <border type="none"/>
     <children>
       <component id="d1820" class="javax.swing.JButton" binding="buttonOne">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font style="1"/>
-          <text value="Display Coin Data From Date"/>
+          <text value="Display all coin data in Descending Order"/>
         </properties>
       </component>
       <component id="901e6" class="javax.swing.JButton" binding="buttonSix">
         <constraints>
-          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font style="1"/>
@@ -28,7 +28,7 @@
       </component>
       <component id="f9789" class="javax.swing.JButton" binding="buttonEight">
         <constraints>
-          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font style="1"/>
@@ -37,7 +37,7 @@
       </component>
       <component id="84892" class="javax.swing.JButton" binding="buttonNine">
         <constraints>
-          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font style="1"/>
@@ -46,7 +46,7 @@
       </component>
       <component id="e6f8" class="javax.swing.JButton" binding="buttonTwo">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font style="1"/>
@@ -55,7 +55,7 @@
       </component>
       <component id="9fdbb" class="javax.swing.JButton" binding="buttonThree">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font style="1"/>
@@ -64,7 +64,7 @@
       </component>
       <component id="371d3" class="javax.swing.JButton" binding="buttonFour">
         <constraints>
-          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font style="1"/>
@@ -73,7 +73,7 @@
       </component>
       <component id="ba277" class="javax.swing.JButton" binding="buttonFive">
         <constraints>
-          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font style="1"/>
@@ -82,7 +82,7 @@
       </component>
       <component id="7750c" class="javax.swing.JButton" binding="buttonSeven">
         <constraints>
-          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font style="1"/>
@@ -91,13 +91,112 @@
       </component>
       <component id="8f727" class="javax.swing.JButton" binding="buttonTen">
         <constraints>
-          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font style="1"/>
           <text value="Sort by Lowest Closing Price"/>
         </properties>
       </component>
+      <grid id="ff410" binding="listPanel" layout-manager="GridLayoutManager" row-count="11" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="54c10" class="javax.swing.JLabel" binding="listTitle">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font style="1"/>
+              <text value="Our selection of the top coins for analysis (02/01/2018 - 04/30/2018) "/>
+            </properties>
+          </component>
+          <component id="62084" class="javax.swing.JLabel" binding="numOne">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="18" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="1. Bitcion (BTC)"/>
+            </properties>
+          </component>
+          <component id="23bea" class="javax.swing.JLabel" binding="numTwo">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="18" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="2. Ethereum (ETH)"/>
+            </properties>
+          </component>
+          <component id="659a8" class="javax.swing.JLabel" binding="numThree">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="18" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="3. Ripple (XRP)"/>
+            </properties>
+          </component>
+          <component id="2abea" class="javax.swing.JLabel" binding="numFour">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="18" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="4. Bitcoin Cash (BCH)"/>
+            </properties>
+          </component>
+          <component id="651f3" class="javax.swing.JLabel" binding="numFive">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="18" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="5. EOS (EOS)"/>
+            </properties>
+          </component>
+          <component id="f4c50" class="javax.swing.JLabel" binding="numSix">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="18" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="6. Cardano (ADA)"/>
+            </properties>
+          </component>
+          <component id="77780" class="javax.swing.JLabel" binding="numSeven">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="18" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="7. Litecoin (LTC)"/>
+            </properties>
+          </component>
+          <component id="5b5be" class="javax.swing.JLabel" binding="numEight">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="18" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="8. Stellar (XLM)"/>
+            </properties>
+          </component>
+          <component id="c30b0" class="javax.swing.JLabel" binding="numNine">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="18" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="9. NEO (NEO)"/>
+            </properties>
+          </component>
+          <component id="98308" class="javax.swing.JLabel" binding="numTen">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="18" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="10. Tron (TRX)"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
     </children>
   </grid>
 </form>
