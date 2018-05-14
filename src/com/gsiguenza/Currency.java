@@ -103,6 +103,14 @@ public class Currency implements Comparator<Currency> {
         this.date = date;
 
     }
+    public void setHighAndLow(double coinPriceHigh, double coinPriceLow){
+        this.coinPriceHigh = coinPriceHigh;
+        this.coinPriceLow = coinPriceLow;
+    }
+    public void setOpenAndClose(double coinOpenPrice, double coinClosePrice){
+        this.coinOpenPrice =coinOpenPrice;
+        this.coinClosePrice = coinClosePrice;
+    }
 
     public void setCoinName(String coinName) {
         this.coinName = coinName;
@@ -218,4 +226,5 @@ public class Currency implements Comparator<Currency> {
 
         return Objects.hash(getCoinName(), getCoinSymbol(), getCoinPriceHigh(), getCoinPriceLow(), getCoinOpenPrice(), getCoinClosePrice(), getCoinCirculating(), getCoinMarket());
     }
+
 }

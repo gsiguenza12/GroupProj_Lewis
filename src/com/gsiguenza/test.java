@@ -13,7 +13,7 @@ public class test{
     public static final String EOS = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/EOS.txt";
     public static final String ETH = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/ETH.txt";
     public static final String LTC = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/LTC.txt";
-    public static final String MIOTA = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/MIOTA.txt";
+    public static final String MIOTA ="/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/MIOTA.txt";
     public static final String TRX = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/TRX.txt";
     public static final String XLM = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/XLM.txt";
     public static final String XRP = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/XRP.txt";
@@ -30,6 +30,8 @@ public class test{
         Scanner in;
         String[] wordChunk;
         int chunkSize = 9;
+
+        //useless
         TreeMap<String, Currency> coins = new TreeMap<>();
 
         //TODO: Move into method that handles all the file reading.
@@ -77,9 +79,6 @@ public class test{
                 test.setCoinOpenPrice(Double.parseDouble(removePunctuation(wordChunk[7])));
                 test.setCoinClosePrice(Double.parseDouble(removePunctuation(wordChunk[8])));
 
-//                System.out.println(); // print a line.
-
-
             }
             in.close();
 
@@ -90,7 +89,6 @@ public class test{
         } catch (IOException e) {
             e.printStackTrace();
         }
-
 
 
     }
