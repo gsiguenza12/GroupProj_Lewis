@@ -37,6 +37,7 @@ public class Currency implements Comparator<Currency> {
     private double coinClosePrice;
     private double coinCirculating;
     private double coinMarket;
+    private double fluctuate;
     private Date date;
 
     public Currency() {
@@ -132,6 +133,20 @@ public class Currency implements Comparator<Currency> {
         return  "\nCoin name:" + getCoinName() + "\nCoin Symbol:" + getCoinSymbol() + "\nDate: " + getDate()
                 + "\nCoin price at high:" + getCoinPriceHigh() + "\nCoin price at low:" + getCoinPriceLow()
                 + "\nCoin price at open:" + getCoinOpenPrice() + "\nCoin price at close:" + getCoinClosePrice();
+    }
+    //method to get fluctuation
+    public double setFluctuate(){
+        fluctuate = (coinPriceHigh - coinOpenPrice);
+        return fluctuate;
+    }
+
+    //method to check if its a good investment, if the high price of the day is less than the fluctuation
+    public boolean goodinvestment(){
+        if (coinPriceHigh < fluctuate){
+            return true;
+        }
+        else
+            return false;
     }
 
     /****************************************************************************
