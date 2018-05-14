@@ -498,7 +498,10 @@ public class Main
      * @param coins
      */
     public static void populateCoinMap(HashMap<String, String> coins) {
+<<<<<<< HEAD
+=======
         coins.put("btc", "Bitcoin");
+>>>>>>> parent of 4157512... massive db
         coins.put("eth", "Ethereum");
         coins.put("xrp", "Ripple");
         coins.put("bch", "Bitcoin Cash");
