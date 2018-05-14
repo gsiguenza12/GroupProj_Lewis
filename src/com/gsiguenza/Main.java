@@ -1,5 +1,9 @@
 package com.gsiguenza;
 
+import jdk.jshell.execution.Util;
+
+import java.util.*;
+import java.util.concurrent.ConcurrentMap;
 /****************************************************************************
  * AUTHORS: Gabriel Siguenza, Michael Fogel, Steven Peter Molina
  * COURSE: CS 113
@@ -18,10 +22,6 @@ package com.gsiguenza;
  * Scanner = used for console input
  *****************************************************************************/
 
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Scanner;
-import java.util.concurrent.ConcurrentMap;
 
 public class Main
 {
@@ -37,6 +37,11 @@ public class Main
     public static final String XRP = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/XRP.txt";
 
 
+    /**
+     * The main driver to the program.
+     *
+     * @param args
+     */
     public static void main(String[] args)
     {
         /** Initializations and Declarations **/
@@ -54,6 +59,13 @@ public class Main
         // populating hashMaps
         populateCoinMap(coins);
         populateSymbolMap(symbol);
+
+        TreeMap<String, ArrayList<Currency>> mainList;
+        mainList = new TreeMap<>();
+
+        /* Call the read file method here, for each coin text file. */
+        test.readFile("Cardano","(ADA)",ADA, mainList); /* Do this for each file */
+
 
         /** Program Output **/
         System.out.println("Welcome to the Crypto Currency Database!");
@@ -73,20 +85,9 @@ public class Main
             System.out.println("To sort by lowest opening price................. Enter '8'");
             System.out.println("To sort by highest closing price................ Enter '9'");
             System.out.println("To sort by lowest closing price................. Enter '10'");
-            System.out.print("Choice: ");
-
-            //User input
-            temp = keyboard.nextLine();
 
             //Error checking user input
-            try
-            {
-                choice = Integer.parseInt(temp);
-            }
-            catch(Exception e)
-            {
-                System.out.println("\nInvalid choice! Try again!");
-            }
+            choice = UtilityBelt.readInt("Please enter your selection: ", keyboard, 1,10);
 
             /** User options **/
 
@@ -97,8 +98,7 @@ public class Main
 //                System.out.println("Please enter a date between between Feb. 2018 - Apr. 2018");
 
                 //INPUT AND RETRIEVAL METHODS TO BE ADDED
-                test.main(args);
-
+                System.out.println(mainList.get("Cardano"));
                 //End of choice
                 run = Main.repeat();
             }
@@ -120,6 +120,8 @@ public class Main
             {
                 System.out.print("Please enter a coin you would like to view highest % change for: ");
                 //INPUT to be added
+
+
 
                 //INPUT AND SORTING METHODS TO BE ADDED
 
@@ -214,7 +216,7 @@ public class Main
             //User input invalid choice
             else
             {
-                System.out.println("\nInvalid choice! Try again!");
+                // do nothing case won't be reached.
             }
         }
 

@@ -5,9 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="572d2979-9352-46f4-8e74-2eb85126a324" name="Default" comment="try to commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/gsiguenza/Currency.java" afterPath="$PROJECT_DIR$/src/com/gsiguenza/Currency.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/gsiguenza/test.java" afterPath="$PROJECT_DIR$/src/com/gsiguenza/test.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/ADA.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/ADA.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/BCH.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/BCH.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/EOS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/EOS.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/ETH.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/ETH.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/LTC.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/LTC.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/MIOTA.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/MIOTA.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/TRX.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/TRX.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/XLM.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/XLM.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/XRP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Coins/XRP.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Currency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Currency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Date.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Date.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/UtilityBelt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/UtilityBelt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroupProj_Lewis/com/gsiguenza/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gsiguenza/Coins/ADA.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gsiguenza/Coins/ADA.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gsiguenza/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gsiguenza/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gsiguenza/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gsiguenza/test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,13 +44,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-409">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="466">
+              <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -32,9 +57,8 @@
       <file leaf-file-name="ADA.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Coins/ADA.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="65" lean-forward="false" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
-              <folding />
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -42,8 +66,8 @@
       <file leaf-file-name="Date.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Date.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6238">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="15">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
                 <element signature="e#9513#9514#0" expanded="true" />
                 <element signature="e#9563#9564#0" expanded="true" />
@@ -56,19 +80,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Currency.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Currency.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Currency.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="110" column="42" lean-forward="true" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
+            <state relative-caret-position="15">
+              <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2123#2124#0" expanded="true" />
-                <element signature="e#2154#2155#0" expanded="true" />
-                <element signature="e#2191#2192#0" expanded="true" />
-                <element signature="e#2224#2225#0" expanded="true" />
-                <element signature="e#2264#2265#0" expanded="true" />
-                <element signature="e#2300#2301#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,12 +95,20 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="205" column="0" lean-forward="true" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+            <state relative-caret-position="158">
+              <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2551#2567#0" expanded="true" />
-                <element signature="e#2695#2711#0" expanded="true" />
+                <element signature="e#2624#2640#0" expanded="true" />
+                <element signature="e#2768#2784#0" expanded="true" />
+                <element signature="e#9082#9083#0" expanded="true" />
+                <element signature="e#9114#9115#0" expanded="true" />
+                <element signature="e#9265#9266#0" expanded="true" />
+                <element signature="e#9297#9298#0" expanded="true" />
+                <element signature="e#9450#9451#0" expanded="true" />
+                <element signature="e#9482#9483#0" expanded="true" />
+                <element signature="e#9635#9636#0" expanded="true" />
+                <element signature="e#9667#9668#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,9 +117,17 @@
       <file leaf-file-name="UtilityBelt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/UtilityBelt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3213">
-              <caret line="153" column="5" lean-forward="true" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="1411">
+              <caret line="119" column="52" selection-start-line="119" selection-start-column="52" selection-end-line="119" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvalidInputSelection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/InvalidInputSelection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -125,20 +159,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="GabesBranch" />
       </map>
     </option>
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/gsiguenza/UtilityBelt.java" />
         <option value="$PROJECT_DIR$/src/com/gsiguenza/Welcome.form" />
         <option value="$PROJECT_DIR$/src/com/gsiguenza/Welcome.java" />
         <option value="$PROJECT_DIR$/src/com/gsiguenza/Menu.java" />
@@ -157,42 +185,32 @@
         <option value="$PROJECT_DIR$/src/com/gsiguenza/Coins/LTC.txt" />
         <option value="$PROJECT_DIR$/src/com/gsiguenza/Coins/XLM.txt" />
         <option value="$PROJECT_DIR$/src/com/gsiguenza/Coins/XRP.txt" />
-        <option value="$PROJECT_DIR$/src/com/gsiguenza/Coins/ADA.txt" />
         <option value="$PROJECT_DIR$/src/com/gsiguenza/Coins/BCH.txt" />
         <option value="$PROJECT_DIR$/src/com/gsiguenza/GUI.java" />
         <option value="$PROJECT_DIR$/src/com/gsiguenza/Coins/TRX.txt" />
+        <option value="$PROJECT_DIR$/src/com/gsiguenza/Currency.java" />
+        <option value="$PROJECT_DIR$/src/com/gsiguenza/UtilityBelt.java" />
+        <option value="$PROJECT_DIR$/src/com/gsiguenza/Coins/ADA.txt" />
         <option value="$PROJECT_DIR$/src/com/gsiguenza/Main.java" />
         <option value="$PROJECT_DIR$/src/com/gsiguenza/test.java" />
-        <option value="$PROJECT_DIR$/src/com/gsiguenza/Currency.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="width" value="959" />
-    <option name="height" value="934" />
+    <option name="x" value="-901" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
+    <navigator proportions="" version="1">
       <showMembers ProjectPane="true" />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,10 +240,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,7 +253,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -270,119 +284,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="com.gsiguenza.GUI" />
+      <module name="GroupProj_Lewis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gsiguenza.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.gsiguenza.GUI" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GroupProj_Lewis" />
-      <envs />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="com.gsiguenza.Main" />
+      <module name="GroupProj_Lewis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gsiguenza.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.gsiguenza.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GroupProj_Lewis" />
-      <envs />
     </configuration>
     <configuration name="RolePlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="com.gsiguenza.RolePlayer" />
+      <module name="GroupProj_Lewis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gsiguenza.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.gsiguenza.RolePlayer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GroupProj_Lewis" />
-      <envs />
     </configuration>
     <configuration name="Welcome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="com.gsiguenza.Welcome" />
+      <module name="GroupProj_Lewis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gsiguenza.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.gsiguenza.Welcome" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GroupProj_Lewis" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="com.gsiguenza.test" />
+      <module name="GroupProj_Lewis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gsiguenza.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.gsiguenza.test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GroupProj_Lewis" />
-      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -392,17 +353,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -415,37 +372,31 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Welcome" />
-      <item index="2" class="java.lang.String" itemvalue="Application.RolePlayer" />
-      <item index="3" class="java.lang.String" itemvalue="Application.GUI" />
-      <item index="4" class="java.lang.String" itemvalue="Application.test" />
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Welcome" />
+      <item itemvalue="Application.RolePlayer" />
+      <item itemvalue="Application.GUI" />
+      <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.test" />
-        <item index="1" class="java.lang.String" itemvalue="Application.GUI" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RolePlayer" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Welcome" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.GUI" />
+        <item itemvalue="Application.RolePlayer" />
+        <item itemvalue="Application.Welcome" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -591,98 +542,100 @@
       <option name="project" value="LOCAL" />
       <updated>1526267058458</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fix menu option 1 and 2">
+      <created>1526322559561</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1526322559561</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11102000" />
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="918" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33077905" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.122395836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14954221" sideWeight="0.5015625" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.4984375" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28734" sideWeight="0.4984375" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14954221" sideWeight="0.4984375" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15416667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.49921876" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49609375" weight="0.32859176" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50625" side_tool="true" visible="true" weight="0.28734" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49375" visible="true" weight="0.28734" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49609375" weight="0.15931721" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15390626" />
+      <window_info id="Learn" order="5" weight="0.32956383" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32916668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15416667" />
+      <window_info id="Learn" order="5" weight="0.32956383" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4984375" visible="true" weight="0.14954221" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984375" weight="0.28734" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015625" side_tool="true" visible="true" weight="0.14954221" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49921876" weight="0.32859176" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40398294" sideWeight="0.50078124" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.4984375" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40398294" sideWeight="0.49921876" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15647227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921876" visible="true" weight="0.40398294" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4984375" weight="0.32859176" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23125" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.15647227" />
+      <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32916668" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Learn" order="5" weight="0.32956383" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50078124" side_tool="true" weight="0.40398294" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
@@ -746,34 +699,15 @@
     <MESSAGE value="wtf" />
     <MESSAGE value="k" />
     <MESSAGE value="try to commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to commit" />
+    <MESSAGE value="fix menu option 1 and 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix menu option 1 and 2" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Currency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-            <element signature="e#2154#2155#0" expanded="true" />
-            <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#2224#2225#0" expanded="true" />
-            <element signature="e#2264#2265#0" expanded="true" />
-            <element signature="e#2300#2301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
-          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
           <folding>
             <element signature="e#9513#9514#0" expanded="true" />
             <element signature="e#9563#9564#0" expanded="true" />
@@ -788,11 +722,19 @@
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3961">
-          <caret line="234" column="9" lean-forward="false" selection-start-line="234" selection-start-column="9" selection-end-line="234" selection-end-column="9" />
+          <caret line="234" column="9" selection-start-line="234" selection-start-column="9" selection-end-line="234" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2551#2567#0" expanded="true" />
-            <element signature="e#2695#2711#0" expanded="true" />
+            <element signature="e#2624#2640#0" expanded="true" />
+            <element signature="e#2768#2784#0" expanded="true" />
+            <element signature="e#9082#9083#0" expanded="true" />
+            <element signature="e#9114#9115#0" expanded="true" />
+            <element signature="e#9265#9266#0" expanded="true" />
+            <element signature="e#9297#9298#0" expanded="true" />
+            <element signature="e#9450#9451#0" expanded="true" />
+            <element signature="e#9482#9483#0" expanded="true" />
+            <element signature="e#9635#9636#0" expanded="true" />
+            <element signature="e#9667#9668#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -800,49 +742,49 @@
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/UtilityBelt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/com/gsiguenza/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="92" lean-forward="false" selection-start-line="13" selection-start-column="92" selection-end-line="13" selection-end-column="92" />
+          <caret line="13" column="92" selection-start-line="13" selection-start-column="92" selection-end-line="13" selection-end-column="92" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Currency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
-          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
-          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8194">
-          <caret line="483" column="6" lean-forward="false" selection-start-line="483" selection-start-column="6" selection-end-line="483" selection-end-column="6" />
+          <caret line="483" column="6" selection-start-line="483" selection-start-column="6" selection-end-line="483" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -850,21 +792,21 @@
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="79" />
+          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Currency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
-          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/UtilityBelt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -872,7 +814,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8194">
-          <caret line="483" column="6" lean-forward="false" selection-start-line="483" selection-start-column="6" selection-end-line="483" selection-end-column="6" />
+          <caret line="483" column="6" selection-start-line="483" selection-start-column="6" selection-end-line="483" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -880,21 +822,21 @@
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="79" />
+          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Currency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
-          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/UtilityBelt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -902,28 +844,28 @@
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
-          <caret line="56" column="35" lean-forward="false" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="79" />
+          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Currency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
-          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/UtilityBelt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -932,55 +874,100 @@
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Welcome.java" />
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Menu.java" />
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/RolePlayer.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/math/FloatingDecimal.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/NumberFormatException.java" />
-    <entry file="file://$PROJECT_DIR$/Tests/com/gsiguenza/MainTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/math/FloatingDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="92" lean-forward="false" selection-start-line="13" selection-start-column="92" selection-end-line="13" selection-end-column="92" />
+        <state relative-caret-position="408">
+          <caret line="2053" selection-start-line="2053" selection-end-line="2053" />
         </state>
       </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/com/gsiguenza/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="13" column="92" selection-start-line="13" selection-start-column="92" selection-end-line="13" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/GUI.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Coins/TRX.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Coins/coinDB.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Coins/MIOTA.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Coins/LTC.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
-          <caret line="76" column="29" lean-forward="false" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+          <caret line="76" column="29" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Coins/EOS.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Coins/BCH.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Coins/ETH.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="89" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Coins/XLM.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Coins/XRP.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Coins/ETH.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/InvalidInputSelection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="78" />
+        <state relative-caret-position="30">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Coins/XRP.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/UtilityBelt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-409">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="1411">
+          <caret line="119" column="52" selection-start-line="119" selection-start-column="52" selection-end-line="119" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6238">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="15">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="e#9513#9514#0" expanded="true" />
             <element signature="e#9563#9564#0" expanded="true" />
@@ -992,63 +979,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Currency.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="205" column="0" lean-forward="true" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2551#2567#0" expanded="true" />
-            <element signature="e#2695#2711#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/UtilityBelt.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3213">
-          <caret line="153" column="5" lean-forward="true" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="158">
+          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2624#2640#0" expanded="true" />
+            <element signature="e#2768#2784#0" expanded="true" />
+            <element signature="e#9082#9083#0" expanded="true" />
+            <element signature="e#9114#9115#0" expanded="true" />
+            <element signature="e#9265#9266#0" expanded="true" />
+            <element signature="e#9297#9298#0" expanded="true" />
+            <element signature="e#9450#9451#0" expanded="true" />
+            <element signature="e#9482#9483#0" expanded="true" />
+            <element signature="e#9635#9636#0" expanded="true" />
+            <element signature="e#9667#9668#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Coins/ADA.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="65" lean-forward="false" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
-          <folding />
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui.lnf.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ide.general.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gsiguenza/Currency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="110" column="42" lean-forward="true" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-            <element signature="e#2154#2155#0" expanded="true" />
-            <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#2224#2225#0" expanded="true" />
-            <element signature="e#2264#2265#0" expanded="true" />
-            <element signature="e#2300#2301#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="466">
+          <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
         </state>
       </provider>
     </entry>

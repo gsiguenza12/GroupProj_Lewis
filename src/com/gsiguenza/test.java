@@ -7,18 +7,19 @@ import java.util.*;
  * A class for reading in data from text files, creates instances of the Currency class to be stored into hashMap.
  */
 public class test{
-    public static final String BORDER = "-------------------------------";
-    public static final String ADA = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/ADA.txt";
-    public static final String BCH = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/BCH.txt";
-    public static final String EOS = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/EOS.txt";
-    public static final String ETH = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/ETH.txt";
-    public static final String LTC = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/LTC.txt";
-    public static final String MIOTA = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/MIOTA.txt";
-    public static final String TRX = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/TRX.txt";
-    public static final String XLM = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/XLM.txt";
-    public static final String XRP = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/XRP.txt";
 
-    public static void main(String[] args) {
+    /**
+     * Static method to read in Coin information from files.
+     *
+     * @post original Map is passed in by reference so changes should be reflected in main.
+     *
+     * @param coinName the current coin name to be paired with the list of coins.
+     * @param FILEPATH the location of the text file.
+     * @param originalMap pass in a tree map from main that will be used to build the database.
+     *
+     */
+    public static void readFile(String coinName, String coinSymbol, String FILEPATH, TreeMap<String, ArrayList<Currency>> originalMap) {
+
         //This variables will be use to hold the variables from the file
         String key;
         String openPrices;
@@ -33,7 +34,9 @@ public class test{
         String[] wordChunk;
         int chunkSize = 9;
 
-        TreeMap<String, Double> coins = new TreeMap<>();
+        ArrayList<Currency> coinsList = new ArrayList<>();
+
+        originalMap.put(coinName, coinsList);
 //        Currency[] a = new Currency[];
 
 //        coins.
@@ -43,16 +46,10 @@ public class test{
          */
         try {
             Currency test = new Currency();
-            in = new Scanner(new FileReader(ADA));
+            in = new Scanner(new FileReader(FILEPATH));
 //            in.useDelimiter(",");
 
             wordChunk = new String[chunkSize];
-
-            String coinName = (in.next());
-            String coinSymbol = (in.next());
-
-            test.setCoinName(coinName);
-            test.setCoinSymbol(coinSymbol);
 
             while (in.hasNextLine()) {
                 count++;
@@ -76,7 +73,8 @@ public class test{
 //                    System.out.println("String: " + wordChunk[i]);
 //                }
 
-//                test.setCoinName("Cardano");
+                test.setCoinName(coinName);
+                test.setCoinSymbol(coinSymbol);
                 test.setDate(new Date(wordChunk[0],Integer.parseInt(removePunctuation(wordChunk[1])),Integer.parseInt(wordChunk[2])));
                 test.setCoinOpenPrice(Double.parseDouble(wordChunk[3]));
                 test.setCoinPriceHigh(Double.parseDouble(wordChunk[4]));
@@ -86,7 +84,8 @@ public class test{
                 test.setCoinClosePrice(Float.parseFloat(removePunctuation(wordChunk[8])));
 
                 System.out.println(test);
-                coins.put(test.getCoinName(),test.getCoinPriceHigh());
+
+                coinsList.add(test);
 //                System.out.println(); // print a line.
 
 
@@ -103,9 +102,9 @@ public class test{
 
         System.out.println("Finished reading files...");
 
-        Object[] objectArray = coins.entrySet().toArray();
+        System.out.println(originalMap);
+//        System.out.println("Current HashMap size " + coins.size());
 
-        System.out.println(Arrays.toString(objectArray));
     }
 
     /**
