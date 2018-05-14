@@ -116,12 +116,15 @@ public class UtilityBelt {
                 result = temp.charAt(0);
                 isNotValid = validChars.indexOf(result) == -1;
 
-                if (isNotValid) {
-                    System.out.println("ERROR: please enter one of the following valid chars: " + validChars);
+                if (isNotValid || temp.length() < 3 || temp.length() > 3) {
+                    System.out.println(temp.length());
+                    System.out.println("ERROR: Please enter coins in either the format \"btc\" or \"BTC\"");
+                    isNotValid = true;
                 }
             } catch (StringIndexOutOfBoundsException sOutOfBounds) {
                 System.out.println("ERROR: input type does not match");
             }
+
         } while (isNotValid);
 
         return result;

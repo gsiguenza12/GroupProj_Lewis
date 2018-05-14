@@ -18,8 +18,11 @@ package com.gsiguenza;
  * Scanner = used for console input
  *****************************************************************************/
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Scanner;
+import java.util.concurrent.ConcurrentMap;
+
 public class Main
 {
     public static final String BORDER = "-------------------------------";
@@ -48,6 +51,9 @@ public class Main
         //Can be removed & replaced with .getSymbol() with coin object
         HashMap<String, String> symbol = new HashMap<String, String>();
 
+        // populating hashMaps
+        populateCoinMap(coins);
+        populateSymbolMap(symbol);
 
         /** Program Output **/
         System.out.println("Welcome to the Crypto Currency Database!");
@@ -102,12 +108,7 @@ public class Main
             {
                 System.out.print("Please enter a coin you would like to view data for: ");
                 //INPUT to be added
-
-                System.out.println("Please enter a date range to retrieve data from: ");
-                //INPUT to be added
-
-
-                //INPUT AND RETRIEVAL METHODS TO BE ADDED
+                UtilityBelt.readChar("Coin: ",keyboard,"btcBTCethETHxrpXRPbchBCHeosEOSadaADAltcLTCxlmXLMneoNEOtrxTRX");
 
 
                 //End of choice
@@ -220,6 +221,46 @@ public class Main
         //End of program
         System.exit(0);
     }
+    /* END OF MAIN */
+
+    /*******************************************************************
+     * Comparator's for sorting coins.
+     *******************************************************************/
+    public class highPriceComparator  implements Comparator<Currency> {
+
+        @Override
+        public int compare(Currency o1, Currency o2) {
+            return 0;
+        }
+    }
+
+    public class lowPriceComparator implements Comparator<Currency> {
+
+        @Override
+        public int compare(Currency o1, Currency o2) {
+            return 0;
+        }
+    }
+
+    public class openPriceComparator implements  Comparator<Currency> {
+
+        @Override
+        public int compare(Currency o1, Currency o2) {
+            return 0;
+        }
+    }
+
+    public class closePriceComparator implements Comparator<Currency> {
+
+        @Override
+        public int compare(Currency o1, Currency o2) {
+            return 0;
+        }
+    }
+//
+//    Collections.sort(people, new Comparator<Person>() { //Legal
+//    public int compare(Person p1, Person p2) { //Method code...
+//    } });
 
     //Method determines whether user wants to rerun the program or exit
     public static boolean repeat()
@@ -498,6 +539,7 @@ public class Main
      * @param coins
      */
     public static void populateCoinMap(HashMap<String, String> coins) {
+        coins.put("btc", "BitCoin");
         coins.put("eth", "Ethereum");
         coins.put("xrp", "Ripple");
         coins.put("bch", "Bitcoin Cash");
