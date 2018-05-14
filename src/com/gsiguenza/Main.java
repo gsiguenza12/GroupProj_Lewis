@@ -34,7 +34,6 @@ public class Main
     public static final String XRP = "/Users/gabrielsiguenza/Documents/GitHub/GroupProj_Lewis/src/com/gsiguenza/Coins/XRP.txt";
 
 
-
     public static void main(String[] args)
     {
         /** Initializations and Declarations **/
@@ -499,7 +498,6 @@ public class Main
      * @param coins
      */
     public static void populateCoinMap(HashMap<String, String> coins) {
-        coins.put("btc", "Bitcoin");
         coins.put("eth", "Ethereum");
         coins.put("xrp", "Ripple");
         coins.put("bch", "Bitcoin Cash");
