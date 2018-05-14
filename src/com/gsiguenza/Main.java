@@ -122,6 +122,7 @@ public class Main
             //Search for data for a specific coin, user enters date range
             else if(choice == 2)
             {
+                //prompt user to enter a coin to search for data for
                 System.out.print("Please enter a coin you would like to view data for: ");
                 Scanner input = new Scanner(System.in);
                 String userInput = input.nextLine();
@@ -152,6 +153,7 @@ public class Main
                 else if (userInput.equalsIgnoreCase("Ripple")){
                     System.out.println(mainList.get("Ripple"));
                 }
+                //if userEntry is not equal to a coin
                 else
                 {
                     System.out.println("Coin not found in our database");
@@ -169,11 +171,41 @@ public class Main
             {
                 System.out.print("Please enter a coin you would like to view highest % change for: ");
                 //INPUT to be added
-
-
-
-                //INPUT AND SORTING METHODS TO BE ADDED
-
+                Scanner input = new Scanner(System.in);
+                String userInput = input.nextLine();
+                //prompt user to enter a coin to search for data for
+                if (userInput.equalsIgnoreCase("Cardano")){
+                    //Input method to get data for high %
+                }
+                else if (userInput.equalsIgnoreCase("Bitcoin Cash")){
+                    //Input method to get data for high %
+                }
+                else if (userInput.equalsIgnoreCase("Eos")){
+                    //Input method to get data for high %
+                }
+                else if (userInput.equalsIgnoreCase("Ethereum")){
+                    //Input method to get data for high %
+                }
+                else if (userInput.equalsIgnoreCase("Litecoin")){
+                    //Input method to get data for high %
+                }
+                else if (userInput.equalsIgnoreCase("Ioda")){
+                    //Input method to get data for high %
+                }
+                else if (userInput.equalsIgnoreCase("Tron")){
+                    //Input method to get data for high %
+                }
+                else if (userInput.equalsIgnoreCase("Stellar")){
+                    //Input method to get data for high %
+                }
+                else if (userInput.equalsIgnoreCase("Ripple")){
+                    //Input method to get data for high %
+                }
+                //if userEntry is not equal to a coin
+                else
+                {
+                    System.out.println("Coin not found in our database");
+                }
                 //End of choice
                 run = Main.repeat();
             }
@@ -183,6 +215,41 @@ public class Main
             {
                 System.out.print("Please enter a coin you would like to view lowest % change for: ");
                 //INPUT to be added
+                Scanner input = new Scanner(System.in);
+                String userInput = input.nextLine();
+                //prompt user to enter a coin to search for data for
+                if (userInput.equalsIgnoreCase("Cardano")){
+                    //Input method to get data for low %
+                }
+                else if (userInput.equalsIgnoreCase("Bitcoin Cash")) {
+                    //Input method to get data for low %
+                }
+                else if (userInput.equalsIgnoreCase("Eos")){
+                    //Input method to get data for low %
+                }
+                else if (userInput.equalsIgnoreCase("Ethereum")){
+                    //Input method to get data for low %
+                }
+                else if (userInput.equalsIgnoreCase("Litecoin")){
+                    //Input method to get data for low %
+                }
+                else if (userInput.equalsIgnoreCase("Ioda")){
+                    //Input method to get data for low %
+                }
+                else if (userInput.equalsIgnoreCase("Tron")){
+                    //Input method to get data for low %
+                }
+                else if (userInput.equalsIgnoreCase("Stellar")){
+                    //Input method to get data for low %
+                }
+                else if (userInput.equalsIgnoreCase("Ripple")){
+                    //Input method to get data for low %
+                }
+                //if userEntry is not equal to a coin
+                else
+                {
+                    System.out.println("Coin not found in our database");
+                }
 
                 //INPUT AND SORTING METHODS TO BE ADDED
 
@@ -195,7 +262,41 @@ public class Main
             {
                 System.out.print("Please enter a coin you would like to view highest prices for: ");
                 //INPUT to be added
-
+                Scanner input = new Scanner(System.in);
+                String userInput = input.nextLine();
+                //prompt user to enter a coin to search for data for
+                if (userInput.equalsIgnoreCase("Cardano")){
+                    //Input method to get data for high price
+                }
+                else if (userInput.equalsIgnoreCase("Bitcoin Cash")) {
+                    //Input method to get data for high price
+                }
+                else if (userInput.equalsIgnoreCase("Eos")){
+                    //Input method to get data for high price
+                }
+                else if (userInput.equalsIgnoreCase("Ethereum")){
+                    //Input method to get data for high price
+                }
+                else if (userInput.equalsIgnoreCase("Litecoin")){
+                    //Input method to get data for high price
+                }
+                else if (userInput.equalsIgnoreCase("Ioda")){
+                    //Input method to get data for high price
+                }
+                else if (userInput.equalsIgnoreCase("Tron")){
+                    //Input method to get data for high price
+                }
+                else if (userInput.equalsIgnoreCase("Stellar")){
+                    //Input method to get data for high price
+                }
+                else if (userInput.equalsIgnoreCase("Ripple")){
+                    //Input method to get data for high price
+                }
+                //if userEntry is not equal to a coin
+                else
+                {
+                    System.out.println("Coin not found in our database");
+                }
                 //INPUT AND SORTING METHODS TO BE ADDED
 
                 //End of choice
@@ -207,7 +308,41 @@ public class Main
             {
                 System.out.print("Please enter a coin you would like to view lowest prices for: ");
                 //INPUT to be added
-
+                Scanner input = new Scanner(System.in);
+                String userInput = input.nextLine();
+                //prompt user to enter a coin to search for data for
+                if (userInput.equalsIgnoreCase("Cardano")){
+                    //Input method to get data for lowest price
+                }
+                else if (userInput.equalsIgnoreCase("Bitcoin Cash")) {
+                    //Input method to get data for lowest price
+                }
+                else if (userInput.equalsIgnoreCase("Eos")){
+                    //Input method to get data for lowest price
+                }
+                else if (userInput.equalsIgnoreCase("Ethereum")){
+                    //Input method to get data for lowest price
+                }
+                else if (userInput.equalsIgnoreCase("Litecoin")){
+                    //Input method to get data for lowest price
+                }
+                else if (userInput.equalsIgnoreCase("Ioda")){
+                    //Input method to get data for lowest price
+                }
+                else if (userInput.equalsIgnoreCase("Tron")){
+                    //Input method to get data for lowest price
+                }
+                else if (userInput.equalsIgnoreCase("Stellar")){
+                    //Input method to get data for lowest price
+                }
+                else if (userInput.equalsIgnoreCase("Ripple")){
+                    //Input method to get data for lowest price
+                }
+                //if userEntry is not equal to a coin
+                else
+                {
+                    System.out.println("Coin not found in our database");
+                }
                 //INPUT AND SORTING METHODS TO BE ADDED
 
                 //End of choice
@@ -219,7 +354,41 @@ public class Main
             {
                 System.out.print("Please enter a coin you would like to view highest opening prices for: ");
                 //INPUT to be added
-
+                Scanner input = new Scanner(System.in);
+                String userInput = input.nextLine();
+                //prompt user to enter a coin to search for data for
+                if (userInput.equalsIgnoreCase("Cardano")){
+                    //Input method to get data for highest open price
+                }
+                else if (userInput.equalsIgnoreCase("Bitcoin Cash")) {
+                    //Input method to get data for highest open price
+                }
+                else if (userInput.equalsIgnoreCase("Eos")){
+                    //Input method to get data for highest open price
+                }
+                else if (userInput.equalsIgnoreCase("Ethereum")){
+                    //Input method to get data for highest open price
+                }
+                else if (userInput.equalsIgnoreCase("Litecoin")){
+                    //Input method to get data for highest open price
+                }
+                else if (userInput.equalsIgnoreCase("Ioda")){
+                    //Input method to get data for highest open price
+                }
+                else if (userInput.equalsIgnoreCase("Tron")){
+                    //Input method to get data for highest open price
+                }
+                else if (userInput.equalsIgnoreCase("Stellar")){
+                    //Input method to get data for highest open price
+                }
+                else if (userInput.equalsIgnoreCase("Ripple")){
+                    //Input method to get data for highest open price
+                }
+                //if userEntry is not equal to a coin
+                else
+                {
+                    System.out.println("Coin not found in our database");
+                }
                 //INPUT AND SORTING METHODS TO BE ADDED
 
                 //End of choice
@@ -231,7 +400,41 @@ public class Main
             {
                 System.out.print("Please enter a coin you would like to view lowest opening prices for: ");
                 //INPUT to be added
-
+                Scanner input = new Scanner(System.in);
+                String userInput = input.nextLine();
+                //prompt user to enter a coin to search for data for
+                if (userInput.equalsIgnoreCase("Cardano")){
+                    //Input method to get data for lowest open price
+                }
+                else if (userInput.equalsIgnoreCase("Bitcoin Cash")) {
+                    //Input method to get data for lowest open price
+                }
+                else if (userInput.equalsIgnoreCase("Eos")){
+                    //Input method to get data for lowest open price
+                }
+                else if (userInput.equalsIgnoreCase("Ethereum")){
+                    //Input method to get data for lowest open price
+                }
+                else if (userInput.equalsIgnoreCase("Litecoin")){
+                    //Input method to get data for lowest open price
+                }
+                else if (userInput.equalsIgnoreCase("Ioda")){
+                    //Input method to get data for lowest open price
+                }
+                else if (userInput.equalsIgnoreCase("Tron")){
+                    //Input method to get data for lowest open price
+                }
+                else if (userInput.equalsIgnoreCase("Stellar")){
+                    //Input method to get data for lowest open price
+                }
+                else if (userInput.equalsIgnoreCase("Ripple")){
+                    //Input method to get data for lowest open price
+                }
+                //if userEntry is not equal to a coin
+                else
+                {
+                    System.out.println("Coin not found in our database");
+                }
                 //INPUT AND SORTING METHODS TO BE ADDED
 
                 //End of choice
@@ -243,7 +446,41 @@ public class Main
             {
                 System.out.print("Please enter a coin you would like to view highest closing prices for: ");
                 //INPUT to be added
-
+                Scanner input = new Scanner(System.in);
+                String userInput = input.nextLine();
+                //prompt user to enter a coin to search for data for
+                if (userInput.equalsIgnoreCase("Cardano")){
+                    //Input method to get data for highest closing price
+                }
+                else if (userInput.equalsIgnoreCase("Bitcoin Cash")) {
+                    //Input method to get data for highest closing price
+                }
+                else if (userInput.equalsIgnoreCase("Eos")){
+                    //Input method to get data for highest closing price
+                }
+                else if (userInput.equalsIgnoreCase("Ethereum")){
+                    //Input method to get data for highest closing price
+                }
+                else if (userInput.equalsIgnoreCase("Litecoin")){
+                    //Input method to get data for highest closing price
+                }
+                else if (userInput.equalsIgnoreCase("Ioda")){
+                    //Input method to get data for highest closing price
+                }
+                else if (userInput.equalsIgnoreCase("Tron")){
+                    //Input method to get data for highest closing price
+                }
+                else if (userInput.equalsIgnoreCase("Stellar")){
+                    //Input method to get data for highest closing price
+                }
+                else if (userInput.equalsIgnoreCase("Ripple")){
+                    //Input method to get data for highest closing price
+                }
+                //if userEntry is not equal to a coin
+                else
+                {
+                    System.out.println("Coin not found in our database");
+                }
                 //INPUT AND SORTING METHODS TO BE ADDED
 
                 //End of choice
@@ -255,7 +492,41 @@ public class Main
             {
                 System.out.print("Please enter a coin you would like to view lowest closing prices for: ");
                 //INPUT to be added
-
+                Scanner input = new Scanner(System.in);
+                String userInput = input.nextLine();
+                //prompt user to enter a coin to search for data for
+                if (userInput.equalsIgnoreCase("Cardano")){
+                    //Input method to get data for lowest closing price
+                }
+                else if (userInput.equalsIgnoreCase("Bitcoin Cash")) {
+                    //Input method to get data for lowest closing price
+                }
+                else if (userInput.equalsIgnoreCase("Eos")){
+                    //Input method to get data for lowest closing price
+                }
+                else if (userInput.equalsIgnoreCase("Ethereum")){
+                    //Input method to get data for lowest closing price
+                }
+                else if (userInput.equalsIgnoreCase("Litecoin")){
+                    //Input method to get data for lowest closing price
+                }
+                else if (userInput.equalsIgnoreCase("Ioda")){
+                    //Input method to get data for lowest closing price
+                }
+                else if (userInput.equalsIgnoreCase("Tron")){
+                    //Input method to get data for lowest closing price
+                }
+                else if (userInput.equalsIgnoreCase("Stellar")){
+                    //Input method to get data for lowest closing price
+                }
+                else if (userInput.equalsIgnoreCase("Ripple")){
+                    //Input method to get data for lowest closing price
+                }
+                //if userEntry is not equal to a coin
+                else
+                {
+                    System.out.println("Coin not found in our database");
+                }
                 //INPUT AND SORTING METHODS TO BE ADDED
 
                 //End of choice
