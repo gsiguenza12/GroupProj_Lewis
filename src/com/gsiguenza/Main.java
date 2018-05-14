@@ -499,7 +499,7 @@ public class Main
      * @param coins
      */
     public static void populateCoinMap(HashMap<String, String> coins) {
-        coins.put("btc", "Bitcoin");
+        coins.put("miota", "IODA");
         coins.put("eth", "Ethereum");
         coins.put("xrp", "Ripple");
         coins.put("bch", "Bitcoin Cash");
