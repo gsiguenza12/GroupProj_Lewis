@@ -15,9 +15,6 @@ import java.util.Objects;
  * A class to hold digital currency values.
  */
 public class Currency {
-    public static void main(String[] args) {
-        System.out.println("Hi");
-    }
     public static final String DEFAULT_NAME = "no name";
     public static final String DEFAULT_SYMBOL = "NUL";
     public static final double DEFAULT_HIGH = 0.0;
