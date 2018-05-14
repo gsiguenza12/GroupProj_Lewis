@@ -63,7 +63,7 @@ public class MainTest {
     // END OF EXAMPLE TEST.
 
     // note in reference to the above test, each test should do ONE thing.
-    // think carefully about the most logical implementation.
+    // think carefully about the most logical implementation
 
 
 }

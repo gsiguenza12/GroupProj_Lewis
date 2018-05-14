@@ -65,6 +65,14 @@ public class Main
 
         /* Call the read file method here, for each coin text file. */
         test.readFile("Cardano","(ADA)",ADA, mainList); /* Do this for each file */
+        test.readFile("Bitcoin Cash", "(BCH)", BCH, mainList);
+        test.readFile("Eos", "(EOS)", EOS, mainList);
+        test.readFile("Ethereum", "(ETH)", ETH, mainList);
+        test.readFile("Litecoin", "(LTC)", LTC, mainList);
+        test.readFile("Ioda", "(MIOTA)", MIOTA, mainList);
+        test.readFile("Tron", "(TRX)", TRX, mainList);
+        test.readFile("Stellar", "(XLM)", XLM, mainList);
+        test.readFile("Ripple", "(XRP)", XRP, mainList);
 
 
         /** Program Output **/
