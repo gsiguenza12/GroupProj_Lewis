@@ -52,47 +52,86 @@ public class Currency implements Comparator<Currency> {
         coinPriceHigh = high;
         coinPriceLow = low;
     }
-    // du
+    //
     public Currency(double open, double close, String coinSymbol){
     coinOpenPrice = open;
     coinClosePrice = close;
     this.coinSymbol = null;
     }
 
+    /**
+     * retrieve data
+     * @return date
+     */
     public Date getDate() {
         return date;
     }
 
+    /**
+     * will set the date
+     * @param object data
+     */
     public void setDate(Date date) {
         this.date = date;
     }
 
     //getters
+
+    /**
+     * retrieve coin name
+     * @return String name
+     */
     public String getCoinName() {
         return coinName;
     }
 
+    /**
+     *retrieve coin shymbol
+     * @return String  of coin symbol
+     */
     public String getCoinSymbol() {
         return coinSymbol;
     }
 
+    /**
+     * retrieve coin price @ high
+     * @return double coin price high
+     */
     public double getCoinPriceHigh() {
         return coinPriceHigh;
     }
-
+    /**
+     * retrieve coin price @ low
+     * @return double coin price low
+     */
     public double getCoinPriceLow() {
         return coinPriceLow;
     }
-
+    /**
+     * retrieve coin price @ open price
+     * @return double coin open price
+     */
     public double getCoinOpenPrice() {
         return coinOpenPrice;
     }
-
+    /**
+     * retrieve coin price @ close price
+     * @return double coin close price
+     */
     public double getCoinClosePrice() {
         return coinClosePrice;
     }
 
-    //setters
+    /**
+     * This will be able to set all at once
+     * @param coinName
+     * @param coinSymbol
+     * @param coinPriceHigh
+     * @param coinPriceLow
+     * @param coinOpenPrice
+     * @param coinClosePrice
+     * @param date
+     */
     public void setAll(String coinName, String coinSymbol, double coinPriceHigh, double coinPriceLow, double coinOpenPrice,
                        double coinClosePrice, Date date) {
         this.coinName = coinName;
@@ -105,30 +144,59 @@ public class Currency implements Comparator<Currency> {
 
     }
 
+    /**
+     * will set cion name
+     * @param coinName
+     */
     public void setCoinName(String coinName) {
         this.coinName = coinName;
     }
 
+    /**
+     * set the coin Symbol
+     * @param coinSymbol
+     */
     public void setCoinSymbol(String coinSymbol) {
         this.coinSymbol = coinSymbol;
     }
 
+    /**
+     * set the coin of the cion @ high
+     * @param coinPriceHigh
+     */
     public void setCoinPriceHigh(double coinPriceHigh) {
         this.coinPriceHigh = coinPriceHigh;
     }
 
+    /**
+     * set the price od the coin @ low
+     * @param coinPriceLow
+     */
     public void setCoinPriceLow(double coinPriceLow) {
         this.coinPriceLow = coinPriceLow;
     }
 
+    /**
+     * set the price of the coin @ opne
+     * @param coinOpenPrice
+     */
     public void setCoinOpenPrice(double coinOpenPrice) {
         this.coinOpenPrice = coinOpenPrice;
     }
+
+    /**
+     * set coin price at low
+     * @param coinClosePrice
+     */
 
     public void setCoinClosePrice(double coinClosePrice) {
         this.coinClosePrice = coinClosePrice;
     }
 
+    /**will return a string of the data of the coin
+     * @return name, symbol, data , coin price at high , coin price at low, coin price at open,
+     * coin price at close
+     */
     public String toString() {
         return  "\nCoin name:" + getCoinName() + "\nCoin Symbol:" + getCoinSymbol() + "\nDate: " + getDate()
                 + "\nCoin price at high:" + getCoinPriceHigh() + "\nCoin price at low:" + getCoinPriceLow()
@@ -140,7 +208,12 @@ public class Currency implements Comparator<Currency> {
         return fluctuate;
     }
 
-    //method to check if its a good investment, if the high price of the day is less than the fluctuation
+
+
+    /**
+     *  method to check if its a good investment, if the high price of the day is less than the fluctuation
+     * @return
+     */
     public boolean goodinvestment(){
         if (coinPriceHigh < fluctuate){
             return true;
@@ -159,7 +232,7 @@ public class Currency implements Comparator<Currency> {
      *
      * @param o1
      * @param o2
-     * @return
+     * @return o
      */
     //TODO: Need to implement to be able to specify different sorting order.
     @Override
@@ -169,6 +242,11 @@ public class Currency implements Comparator<Currency> {
         return 0;
     }
 
+    /**
+     *
+     * @param o
+     * @return
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

@@ -293,13 +293,6 @@ public class test{
     public static void readFile(String coinName, String coinSymbol, String FILEPATH, TreeMap<String, ArrayList<Currency>> originalMap) {
 
         //This variables will be use to hold the variables from the file
-        String key;
-        String openPrices;
-        String high;
-        String low;
-        String closePrice;
-        String volume;
-        String marketCap;
         int count = 0;
         double priceHigh;
 
