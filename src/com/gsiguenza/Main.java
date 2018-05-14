@@ -5,7 +5,7 @@ package com.gsiguenza;
 import java.util.*;
 import java.util.concurrent.ConcurrentMap;
 /****************************************************************************
- * AUTHORS: Gabriel Siguenza, Michael Fogel, Steven Peter Molina
+ * AUTHORS: Gabriel Siguenza, Michael Fogel, Steven Peter Molina, Javier Garcia
  * COURSE: CS 113
  * Monday 5:30 PM - 9:20 PM
  * Assignment: Final Project
