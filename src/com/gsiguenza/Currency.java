@@ -48,6 +48,16 @@ public class Currency implements Comparator<Currency> {
                     double coinCirculating, double coinMarket, Date theDate) {
         setAll(coinName, coinSymbol, coinPriceHigh, coinPriceLow, coinOpenPrice, coinClosePrice, theDate);
     }
+    public Currency(double high, double low ){
+        coinPriceHigh = high;
+        coinPriceLow = low;
+    }
+    // du
+    public Currency(double open, double close, String coinSymbol){
+    coinOpenPrice = open;
+    coinClosePrice = close;
+    this.coinSymbol = null;
+    }
 
     public Date getDate() {
         return date;
