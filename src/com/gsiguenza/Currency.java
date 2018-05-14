@@ -40,12 +40,12 @@ public class Currency implements Comparator<Currency> {
     private Date date;
 
     public Currency() {
-        setAll(DEFAULT_NAME, DEFAULT_SYMBOL, DEFAULT_HIGH, DEFAULT_LOW, DEFAULT_OPEN, DEFAULT_CLOSE, DEFAULT_CIRCULATING, DEFAULT_MARKET, new Date());
+        setAll(DEFAULT_NAME, DEFAULT_SYMBOL, DEFAULT_HIGH, DEFAULT_LOW, DEFAULT_OPEN, DEFAULT_CLOSE, new Date());
     }
 
     public Currency(String coinName, double coinPriceHigh, double coinPriceLow, double coinOpenPrice, double coinClosePrice,
                     double coinCirculating, double coinMarket, Date theDate) {
-        setAll(coinName, coinSymbol, coinPriceHigh, coinPriceLow, coinOpenPrice, coinClosePrice, coinCirculating, coinMarket, theDate);
+        setAll(coinName, coinSymbol, coinPriceHigh, coinPriceLow, coinOpenPrice, coinClosePrice, theDate);
     }
 
     public Date getDate() {
@@ -81,25 +81,15 @@ public class Currency implements Comparator<Currency> {
         return coinClosePrice;
     }
 
-    public double getCoinCirculating() {
-        return coinCirculating;
-    }
-
-    public double getCoinMarket() {
-        return coinMarket;
-    }
-
     //setters
-    public void setAll(String coinName, String coinSymbol, double coinPriceHigh, double coinPriceLow, double coinOpenPrice, double coinClosePrice,
-                       double coinCirculating, double coinMarket, Date date) {
+    public void setAll(String coinName, String coinSymbol, double coinPriceHigh, double coinPriceLow, double coinOpenPrice,
+                       double coinClosePrice, Date date) {
         this.coinName = coinName;
         this.coinSymbol = coinSymbol;
         this.coinPriceHigh = coinPriceHigh;
         this.coinPriceLow = coinPriceLow;
         this.coinOpenPrice = coinOpenPrice;
         this.coinClosePrice = coinClosePrice;
-        this.coinCirculating = coinCirculating;
-        this.coinMarket = coinMarket;
         this.date = date;
 
     }
@@ -128,19 +118,10 @@ public class Currency implements Comparator<Currency> {
         this.coinClosePrice = coinClosePrice;
     }
 
-    public void setCoinCirculating(double coinCirculating) {
-        this.coinCirculating = coinCirculating;
-    }
-
-    public void setCoinMarket(double coinMarket) {
-        this.coinMarket = coinMarket;
-    }
-
     public String toString() {
-        return "Date: " + getDate() + "\nCoin name:" + getCoinName() + "\nCoin Symbol:" + getCoinSymbol()
-                + "\n Coin price at high:" + getCoinPriceHigh() + "\nCoin price at low:" + getCoinPriceLow()
-                + "\nCoin price at open:" + getCoinOpenPrice() + "\nCoin price at close:" + getCoinClosePrice()
-                + "\nCoins in circulating:" + getCoinCirculating() + "\nCoins in the market:" + getCoinMarket();
+        return  "\nCoin name:" + getCoinName() + "\nCoin Symbol:" + getCoinSymbol() + "\nDate: " + getDate()
+                + "\nCoin price at high:" + getCoinPriceHigh() + "\nCoin price at low:" + getCoinPriceLow()
+                + "\nCoin price at open:" + getCoinOpenPrice() + "\nCoin price at close:" + getCoinClosePrice();
     }
 
     /****************************************************************************
@@ -172,50 +153,8 @@ public class Currency implements Comparator<Currency> {
                 Double.compare(currency.getCoinPriceLow(), getCoinPriceLow()) == 0 &&
                 Double.compare(currency.getCoinOpenPrice(), getCoinOpenPrice()) == 0 &&
                 Double.compare(currency.getCoinClosePrice(), getCoinClosePrice()) == 0 &&
-                Double.compare(currency.getCoinCirculating(), getCoinCirculating()) == 0 &&
-                Double.compare(currency.getCoinMarket(), getCoinMarket()) == 0 &&
                 Objects.equals(getCoinName(), currency.getCoinName()) &&
                 Objects.equals(getCoinSymbol(), currency.getCoinSymbol());
     }
 
-    @Override
-    public Comparator<Currency> reversed() {
-        return null;
-    }
-
-    @Override
-    public Comparator<Currency> thenComparing(Comparator<? super Currency> other) {
-        return null;
-    }
-
-    @Override
-    public <U> Comparator<Currency> thenComparing(Function<? super Currency, ? extends U> keyExtractor, Comparator<? super U> keyComparator) {
-        return null;
-    }
-
-    @Override
-    public <U extends Comparable<? super U>> Comparator<Currency> thenComparing(Function<? super Currency, ? extends U> keyExtractor) {
-        return null;
-    }
-
-    @Override
-    public Comparator<Currency> thenComparingInt(ToIntFunction<? super Currency> keyExtractor) {
-        return null;
-    }
-
-    @Override
-    public Comparator<Currency> thenComparingLong(ToLongFunction<? super Currency> keyExtractor) {
-        return null;
-    }
-
-    @Override
-    public Comparator<Currency> thenComparingDouble(ToDoubleFunction<? super Currency> keyExtractor) {
-        return null;
-    }
-
-    @Override
-    public int hashCode() {
-
-        return Objects.hash(getCoinName(), getCoinSymbol(), getCoinPriceHigh(), getCoinPriceLow(), getCoinOpenPrice(), getCoinClosePrice(), getCoinCirculating(), getCoinMarket());
-    }
 }

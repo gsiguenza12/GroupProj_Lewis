@@ -57,7 +57,7 @@ public class Main
         while(run)
         {
             System.out.println("\nPlease select from the following options:");
-            System.out.println("To display ALL coin data for a specific date.... Enter '1'");
+            System.out.println("To display ALL coin data by date(descending) .... Enter '1'");
             System.out.println("To search for data on a specific coin........... Enter '2'");
             System.out.println("To sort by highest % change (vs. previous day).. Enter '3'");
             System.out.println("To sort by lowest % change (vs. previous day)... Enter '4'");
@@ -88,10 +88,10 @@ public class Main
             //Displays all coin data for specific date
             if(choice == 1)
             {
-                System.out.println("Please enter a date between between Feb. 2018 - Apr. 2018");
+//                System.out.println("Please enter a date between between Feb. 2018 - Apr. 2018");
 
                 //INPUT AND RETRIEVAL METHODS TO BE ADDED
-
+                test.main(args);
 
                 //End of choice
                 run = Main.repeat();

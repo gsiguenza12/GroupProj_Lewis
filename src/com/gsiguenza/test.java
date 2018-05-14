@@ -27,11 +27,16 @@ public class test{
         String closePrice;
         String volume;
         String marketCap;
+        int count = 0;
+
         Scanner in;
         String[] wordChunk;
         int chunkSize = 9;
-        TreeMap<String, Currency> coins = new TreeMap<>();
 
+        TreeMap<String, Double> coins = new TreeMap<>();
+//        Currency[] a = new Currency[];
+
+//        coins.
         //TODO: Move into method that handles all the file reading.
         /*
         Alternatively could consolidate all 3 files into one text file.
@@ -43,10 +48,14 @@ public class test{
 
             wordChunk = new String[chunkSize];
 
-            test.setCoinName(in.next());
+            String coinName = (in.next());
+            String coinSymbol = (in.next());
+
+            test.setCoinName(coinName);
+            test.setCoinSymbol(coinSymbol);
 
             while (in.hasNextLine()) {
-
+                count++;
                 // reading in 7 variables for coin.
                 for (int i = 0; i < chunkSize; i++) {
 
@@ -63,20 +72,21 @@ public class test{
                 }
                  */
 
-                for (int i = 0; i < chunkSize; i++) {
-                    System.out.println("String: " + wordChunk[i]);
-                }
+//                for (int i = 0; i < chunkSize; i++) {
+//                    System.out.println("String: " + wordChunk[i]);
+//                }
 
-                test.setCoinName("Cardano");
+//                test.setCoinName("Cardano");
                 test.setDate(new Date(wordChunk[0],Integer.parseInt(removePunctuation(wordChunk[1])),Integer.parseInt(wordChunk[2])));
-                System.out.println(test);
                 test.setCoinOpenPrice(Double.parseDouble(wordChunk[3]));
                 test.setCoinPriceHigh(Double.parseDouble(wordChunk[4]));
                 test.setCoinPriceLow(Double.parseDouble(wordChunk[5]));
                 test.setCoinClosePrice(Double.parseDouble(wordChunk[6]));
-                test.setCoinOpenPrice(Double.parseDouble(removePunctuation(wordChunk[7])));
-                test.setCoinClosePrice(Double.parseDouble(removePunctuation(wordChunk[8])));
+                test.setCoinOpenPrice(Float.parseFloat(removePunctuation(wordChunk[7])));
+                test.setCoinClosePrice(Float.parseFloat(removePunctuation(wordChunk[8])));
 
+                System.out.println(test);
+                coins.put(test.getCoinName(),test.getCoinPriceHigh());
 //                System.out.println(); // print a line.
 
 
@@ -84,15 +94,18 @@ public class test{
             in.close();
 
         } catch (NoSuchElementException e) {
-            System.out.println("Caught: NoSuchElementException");
+//            System.out.println("Caught: NoSuchElementException");
             // terminate loop?
 
         } catch (IOException e) {
             e.printStackTrace();
         }
 
+        System.out.println("Finished reading files...");
 
+        Object[] objectArray = coins.entrySet().toArray();
 
+        System.out.println(Arrays.toString(objectArray));
     }
 
     /**

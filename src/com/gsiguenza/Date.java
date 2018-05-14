@@ -342,15 +342,15 @@ public class Date implements Cloneable
         {
             result = 1;
         }
-        else if (month.equalsIgnoreCase("February"))
+        else if (month.equalsIgnoreCase("Feb"))
         {
             result = 2;
         }
-        else if (month.equalsIgnoreCase("March"))
+        else if (month.equalsIgnoreCase("Mar"))
         {
             result = 3;
         }
-        else if (month.equalsIgnoreCase("April"))
+        else if (month.equalsIgnoreCase("Apr"))
         {
             result = 4;
         }
